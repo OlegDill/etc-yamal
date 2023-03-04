@@ -30,5 +30,5 @@ $('.advantage__button-contact').click(() => {
 })
 
 $('.advantage__text_span').click(() => {
-  scrollToAnchor('.clients');
+  scrollToAnchor('.reviews');
 })
