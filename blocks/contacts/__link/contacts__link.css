@@ -1,0 +1,10 @@
+.contacts__link {
+  color: black;
+  font-family: 'Europeext Regular';
+  font-size: 22px;
+}
+
+.contacts__link:hover {
+  color: #940202;
+  filter: drop-shadow(3px 3px 3px #616161);
+}

@@ -1,0 +1,12 @@
+.advantage__caption {
+  color: #616161;
+  font-family: 'Finlandica';
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+
+.advantage__caption span {
+  font-family: 'Europeext Bold';
+  color: #940202;
+  text-transform: uppercase;
+}

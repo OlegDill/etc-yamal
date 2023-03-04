@@ -1,0 +1,77 @@
+/* vendor */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/owl/owl.carousel.min.css);
+@import url(../vendor/owl/owl.theme.default.min.css);
+/* body */
+@import url(../blocks/body/body.css);
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__item-link/header__item-link.css);
+@import url(../blocks/header/__site/header__site.css);
+@import url(../blocks/header/__site-item/header__site-item.css);
+@import url(../blocks/header/__site-link/header__site-link.css);
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__container-text/about__container-text.css);
+@import url(../blocks/about/__box/about__box.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__name/about__name.css);
+/* services */
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__box-one/services__box-one.css);
+@import url(../blocks/services/__box-two/services__box-two.css);
+@import url(../blocks/services/__box-three/services__box-three.css);
+@import url(../blocks/services/__item-one/services__item-one.css);
+@import url(../blocks/services/__item-two/services__item-two.css);
+@import url(../blocks/services/__item-three/services__item-three.css);
+@import url(../blocks/services/__list-one/services__list-one.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__list-two/services__list-two.css);
+@import url(../blocks/services/__list-three/services__list-three.css);
+@import url(../blocks/services/__scotch/services__scotch.css);
+@import url(../blocks/services/__box-one-palaroid/services__box-one-palaroid.css);
+@import url(../blocks/services/__box-two-palaroid/services__box-two-palaroid.css);
+@import url(../blocks/services/__box-three-palaroid/services__box-three-palaroid.css);
+@import url(../blocks/services/__box-one-caption/services__box-one-caption.css);
+@import url(../blocks/services/__container-photo/services__container-photo.css);
+/* clients */
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__title/clients__title.css);
+@import url(../blocks/clients/__container/clients__container.css);
+/* advantage */
+@import url(../blocks/advantage/advantage.css);
+@import url(../blocks/advantage/__box/advantage__box.css);
+@import url(../blocks/advantage/__caption/advantage__caption.css);
+@import url(../blocks/advantage/__columns/advantage__columns.css);
+@import url(../blocks/advantage/__image/advantage__image.css);
+@import url(../blocks/advantage/__subtitle/advantage__subtitle.css);
+@import url(../blocks/advantage/__title/advantage__title.css);
+@import url(../blocks/advantage/__button-contact/advantage__button-contact.css);
+@import url(../blocks/advantage/__text/advantage__text.css);
+/* reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__doc/reviews__doc.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+/* conacts */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__item/contacts__item.css);
+@import url(../blocks/contacts/__link/contacts__link.css);
+@import url(../blocks/contacts/__list/contacts__list.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__contact-container/footer__contact-container.css);
+@import url(../blocks/footer/__contact-item/footer__contact-item.css);
+@import url(../blocks/footer/__contact-link/footer__contact-link.css);
+@import url(../blocks/footer/__contact-list/footer__contact-list.css);
+@import url(../blocks/footer/__container-logo/footer__container-logo.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__contact-title/footer__contact-title.css);

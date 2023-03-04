@@ -1,0 +1,10 @@
+.header__logo {
+  width: 120px;
+  height: 125px;
+  margin: 0;
+  left: 60px;
+  top: 30px;
+  position: absolute;
+  filter: drop-shadow(3px 3px 3px #616161);
+  z-index: 3;
+}

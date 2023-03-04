@@ -1,0 +1,11 @@
+.services__item-one {
+  color: #f5f5f5;
+  font-family: 'Europeext Regular';
+  font-size: 20px;
+  margin: 0 0 15px 0;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.services__item-one span {
+  color: #cf1515;
+}

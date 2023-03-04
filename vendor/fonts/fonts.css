@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Finlandica';
+  src: url('./Finlandica-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Finlandica Bold';
+  src: url('./Finlandica-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'ClomeroPro';
+  src: url('./CimeroPro.otf');
+}
+
+@font-face {
+  font-family: 'SuperWebcomicBros';
+  src: url('./SuperWebcomicBros.ttf');
+}
+
+@font-face {
+  font-family: 'Finlandica Regular';
+  src: url('./Finlandica-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Europeext Bold';
+  src: url('./europeext_bold.otf');
+}
+
+@font-face {
+  font-family: 'Europeext Regular';
+  src: url('./europeext.otf');
+}

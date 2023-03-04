@@ -1,0 +1,18 @@
+.services__scotch {
+  position: absolute;
+}
+
+.services__scotch_center {
+  top: -60px;
+  left: 40%;
+}
+
+.services__scotch_right {
+  top: -60px;
+  right: -60px;
+}
+
+.services__scotch_left {
+  top: -65px;
+  left: -40px;
+}

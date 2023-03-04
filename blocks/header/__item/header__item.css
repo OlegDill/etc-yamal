@@ -1,0 +1,16 @@
+.header__item {
+  margin-right: 40px;
+  transition: .2s;
+}
+
+/* .header__item:nth-child(2) {
+  margin-right: 60px;
+} */
+
+.header__item:hover {
+  transform: scale(1.1);
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}

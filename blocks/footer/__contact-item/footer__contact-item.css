@@ -1,0 +1,9 @@
+.footer__contact-item {
+  margin-bottom: 5px;
+  transition: .2s;
+  max-width: fit-content;
+}
+
+.footer__contact-item:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,11 @@
+.services__item-two {
+  color: #940202d1;
+  font-family: 'Europeext Regular';
+  font-size: 20px;
+  margin: 0 0 15px 0;
+  filter: drop-shadow(5px 5px 5px #616161);
+}
+
+.services__item-two span {
+  color: #cf1515;
+}

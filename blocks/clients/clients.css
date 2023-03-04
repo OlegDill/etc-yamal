@@ -1,0 +1,28 @@
+.clients {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 150px;
+  margin: 0 50px 0 50px;
+}
+
+.clients::before {
+  background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: 1;
+}
+
+.clients::after {
+  background: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}

@@ -1,0 +1,16 @@
+.clients__container {
+  background: url("../../../images/clients.jpeg") repeat-x;
+  height: 275px;
+  width: 999999px;
+  animation: slide 20000s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-999999px);
+  }
+}

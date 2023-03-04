@@ -1,0 +1,7 @@
+.services__box-two-palaroid {
+  width: 350px;
+  height: 350px;
+  margin: 0 70px 0 30px;
+  filter: drop-shadow(5px 5px 5px black);
+  rotate: -3deg;
+}

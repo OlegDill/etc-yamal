@@ -1,0 +1,14 @@
+.about__title {
+  text-transform: uppercase;
+  color: #940202;
+  font-family: 'Europeext Bold';
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  filter: drop-shadow(3px 3px 2px #616161);
+  text-align: center;
+  line-height: 70px;
+}
+
+.about__title span{
+  font-size: 70px;
+}

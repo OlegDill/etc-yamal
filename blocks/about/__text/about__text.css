@@ -1,0 +1,11 @@
+.about__text {
+  color: #616161;
+  font-family: 'Finlandica';
+  font-size: 24px;
+  margin: 0 0 15px 0;
+  line-height: 32px;
+}
+
+.about__text span {
+  color: #940202;
+}

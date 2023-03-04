@@ -1,0 +1,18 @@
+.header__site-link {
+  width: 48px;
+  height: 48px;
+  display: block;
+  /* filter: drop-shadow(3px 3px 3px #616161); */
+}
+
+.header__site-link_telegram {
+  background-image: url('../../../images/icon-telegram-48.png');
+}
+
+.header__site-link_whatsapp {
+  background-image: url('../../../images/icon-whatsapp-48.png');
+}
+
+.header__site-link_mail {
+  background-image: url('../../../images/icon-mail-48.png');
+}

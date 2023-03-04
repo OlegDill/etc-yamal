@@ -1,0 +1,13 @@
+.header__item-link {
+  font-family: 'Europeext Regular';
+  font-size: 20px;
+  transition: .2s;
+  text-align: center;
+  color: #616161;
+  /* filter: drop-shadow(3px 3px 3px #616161); */
+}
+
+.header__item-link:hover {
+  color: #940202;
+  filter: drop-shadow(3px 3px 3px #616161);
+}

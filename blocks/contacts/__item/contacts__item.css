@@ -1,0 +1,13 @@
+.contacts__item {
+  margin-bottom: 20px;
+  transition: .2s;
+  max-width: fit-content;
+}
+
+.contacts__item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__item:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,10 @@
+.footer {
+  /* background-color: #3c3b3b; */
+  background-image: url('../../images/back.jpeg');
+  background-position: right;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 70px 50px 70px 50px;
+  justify-content: space-between;
+}
