@@ -28,3 +28,7 @@ $('.header__item-link_contacts').click(() => {
 $('.advantage__button-contact').click(() => {
   scrollToAnchor('.contacts');
 })
+
+$('.advantage__text_span').click(() => {
+  scrollToAnchor('.clients');
+})
