@@ -1,0 +1,29 @@
+.services__photo {
+  width: 220px;
+  height: 220px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.services__photo_one {
+  rotate: 3deg;
+}
+
+.services__photo_two {
+  rotate: -3deg;
+}
+
+.services__photo_three {
+  rotate: 3deg;
+}
+
+.services__photo_fourth {
+  rotate: -3deg;
+}
+
+.services__photo_fifth {
+  rotate: 3deg;
+}
+
+.services__photo_sixth {
+  rotate: -3deg;
+}

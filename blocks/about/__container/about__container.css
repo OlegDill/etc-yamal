@@ -1,0 +1,15 @@
+.about__container {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; */
+  width: 60%;
+  bottom: 30%;
+  opacity: .8;
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}

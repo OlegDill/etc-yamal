@@ -1,6 +1,14 @@
 .advantage__text {
   color: #940202;
   font-family: 'Europeext Regular';
-  font-size: 32px;
+  font-size: 26px;
   margin: 30px 0 0 0;
+}
+
+.advantage__text_span {
+  color: black;
+}
+
+.advantage__text_span:hover {
+  opacity: .5;
 }

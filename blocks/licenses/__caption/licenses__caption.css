@@ -1,0 +1,20 @@
+.licenses__caption {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 19%;
+  font-size: 38px;
+  color: white;
+  transition: .5s;
+  z-index: 2;
+  opacity: 0;
+  transition: 1s;
+  margin-top: -20px;
+  font-family: 'Europeext Regular';
+  cursor: pointer;
+}
+
+.licenses__background:hover .licenses__caption {
+  margin-top: 0;
+  opacity: 1;
+}

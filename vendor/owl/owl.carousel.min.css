@@ -4,7 +4,7 @@
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
 
- .owl-stage-outer::before {
+.owl-stage-outer::before {
   background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0) 100%);
   content: '';
   width: 100px;

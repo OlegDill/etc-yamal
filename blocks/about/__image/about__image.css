@@ -1,4 +1,10 @@
 .about__image {
-  width: 500px;
-  height: 600px;
+  width: 100%;
+  opacity: .3;
+  background-image: url('../../../images/about_background.jpeg');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50vw;
 }

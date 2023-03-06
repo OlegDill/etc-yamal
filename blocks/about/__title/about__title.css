@@ -2,13 +2,17 @@
   text-transform: uppercase;
   color: #940202;
   font-family: 'Europeext Bold';
-  font-size: 40px;
-  margin: 0 0 20px 0;
-  filter: drop-shadow(3px 3px 2px #616161);
+  font-size: 32px;
+  margin: 0;
+  filter: drop-shadow(0 0 3px #9e9e9e);
   text-align: center;
   line-height: 70px;
+  /* position: absolute; */
+  
 }
 
-.about__title span{
-  font-size: 70px;
+.about__title_name {
+  font-size: 80px;
+  top: 20%;
+  left: 40%;
 }

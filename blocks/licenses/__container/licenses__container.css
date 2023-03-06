@@ -1,0 +1,6 @@
+.licenses__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+}

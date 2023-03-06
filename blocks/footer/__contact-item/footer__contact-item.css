@@ -1,5 +1,5 @@
 .footer__contact-item {
-  margin-bottom: 5px;
+  margin: 0;
   transition: .2s;
   max-width: fit-content;
 }

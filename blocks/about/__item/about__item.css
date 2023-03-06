@@ -1,0 +1,15 @@
+.about__item {
+
+}
+
+.about__item_title {
+  margin: 0;
+  font-family: 'Europeext Regular';
+  font-size: 16px;
+}
+
+.about__item_subtitle {
+  margin: 30px 0 0 0;
+  font-family: 'Europeext Bold';
+  font-size: 18px;
+}

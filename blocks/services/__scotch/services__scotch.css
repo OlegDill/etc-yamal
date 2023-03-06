@@ -1,18 +1,21 @@
 .services__scotch {
   position: absolute;
+  width: 150px;
+  height: 70px;
+  transition: .5s;
 }
 
 .services__scotch_center {
-  top: -60px;
-  left: 40%;
+  top: -40px;
+  left: 25%;
 }
 
 .services__scotch_right {
-  top: -60px;
-  right: -60px;
+  top: -40px;
+  right: -40px;
 }
 
 .services__scotch_left {
-  top: -65px;
-  left: -40px;
+  top: -50px;
+  left: -30px;
 }

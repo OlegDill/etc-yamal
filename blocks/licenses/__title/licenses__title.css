@@ -1,0 +1,11 @@
+.licenses__title {
+  color: black;
+  font-family: 'Europeext Bold';
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #940202;
+  max-width: 310px;
+  /* filter: drop-shadow(3px 3px 3px #616161); */
+}

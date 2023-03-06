@@ -1,8 +1,9 @@
 .advantage {
-  padding: 0 50px 150px 50px;
+  padding: 0 100px 100px 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background: white;
 }
 
 

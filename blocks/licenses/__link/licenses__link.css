@@ -1,0 +1,11 @@
+.licenses__link {
+  width: 350px;
+  height: 500px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.licenses__link:hover {
+  transform: scale(1.1);
+  opacity: .2;
+}

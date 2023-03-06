@@ -1,0 +1,37 @@
+.services__box {
+  filter: drop-shadow(0 15px 10px #616161);
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  height: 370px;
+}
+
+.services__box_one {
+  background-color: #940202;
+}
+
+.services__box_two {
+  background-color: #f5f5f5;
+}
+
+.services__box_three {
+  margin: 0;
+  background-color: #940202;
+}
+
+.services__box_fourth {
+  background-color: #f5f5f5;
+}
+
+.services__box_fifth {
+  margin: 0;
+  background-color: #940202;
+}
+
+.services__box_sixth {
+  background-color: #f5f5f5;
+}

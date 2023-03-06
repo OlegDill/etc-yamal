@@ -3,11 +3,12 @@
   font-size: 16px;
   transition: .2s;
   text-align: center;
-  color: #616161;
+  color: white;
   /* filter: drop-shadow(3px 3px 3px #616161); */
 }
 
 .header__item-link:hover {
-  color: #940202;
-  filter: drop-shadow(3px 3px 3px #616161);
+  /* color: #940202; */
+  opacity: .5;
+  filter: drop-shadow(0 0 3px white);
 }

@@ -21,6 +21,10 @@ $('.header__item-link_reviews').click(() => {
   scrollToAnchor('.reviews');
 })
 
+$('.header__item-link_licenses').click(() => {
+  scrollToAnchor('.licenses');
+})
+
 $('.header__item-link_contacts').click(() => {
   scrollToAnchor('.contacts');
 })
