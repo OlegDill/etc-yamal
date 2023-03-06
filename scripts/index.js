@@ -75,6 +75,7 @@ function open(evt) {
   document.addEventListener('keydown', handleEscOrOverlayClick);
   document.querySelector('.popup').classList.add('popup_opened');
   document.querySelector('.popup__close').addEventListener('click', close);
+  document.querySelector('.popup-more').addEventListener('click', handleEscOrOverlayClick);
   if (evt.currentTarget.classList.value === 'services__link services__link_one') {
     document.querySelector('.popup-more__caption').textContent = "Системы пожарной сигнализации";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">монтажные и пусконаладочные работы, техническое обслуживание и ремонт систем пожаротушения, оповещения людей о пожаре;</li>';
