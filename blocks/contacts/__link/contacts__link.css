@@ -4,7 +4,7 @@
   font-size: 18px;
 }
 
-.contacts__link:hover {
+.contacts__item:hover .contacts__link {
   color: #940202;
   filter: drop-shadow(3px 3px 3px #616161);
 }

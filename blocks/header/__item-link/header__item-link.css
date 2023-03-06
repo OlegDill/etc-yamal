@@ -7,8 +7,8 @@
   /* filter: drop-shadow(3px 3px 3px #616161); */
 }
 
-.header__item-link:hover {
-  /* color: #940202; */
+.header__item:hover .header__item-link{
   opacity: .5;
   filter: drop-shadow(0 0 3px white);
+
 }

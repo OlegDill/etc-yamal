@@ -6,7 +6,7 @@
   transition: .2s;
 }
 
-.footer__contact-link:hover {
+.footer__contact-item:hover .footer__contact-link {
   color: #ffffff;
   filter: drop-shadow(3px 3px 3px #616161);
 }

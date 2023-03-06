@@ -2,3 +2,7 @@
   font-family: 'Europeext Regular';
   margin-bottom: 10px;
 }
+
+.popup-more__item:last-child {
+  margin-bottom: 0;
+}

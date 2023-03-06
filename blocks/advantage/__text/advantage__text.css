@@ -7,6 +7,7 @@
 
 .advantage__text_span {
   color: black;
+  transition: .5s;
 }
 
 .advantage__text_span:hover {

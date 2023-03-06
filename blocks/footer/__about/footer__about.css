@@ -1,6 +1,10 @@
 .footer__about {
-  margin: 0;
+  margin: 0 0 5px 0;
   color: #b4b2b2;
   font-family: 'Europeext Regular';
-  font-size: 8px;
+  font-size: 10px;
+}
+
+.footer__about:last-child {
+  margin-bottom: 0;
 }

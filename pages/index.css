@@ -30,7 +30,6 @@
 @import url(../blocks/about/__button/about__button.css);
 @import url(../blocks/about/__caption-list/about__caption-list.css);
 @import url(../blocks/about/__item/about__item.css);
-
 /* services */
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__box-caption/services__box-caption.css);
@@ -98,3 +97,5 @@
 @import url(../blocks/popup-more/__list/popup-more__list.css);
 @import url(../blocks/popup-more/__caption/popup-more__caption.css);
 @import url(../blocks/popup-more/__form/popup-more__form.css);
+@import url(../blocks/popup-more/__list-about/popup-more__list-about.css);
+@import url(../blocks/popup-more/__item-about/popup-more__item-about.css);
