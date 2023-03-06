@@ -4,9 +4,31 @@
   flex-wrap: wrap;
   justify-content: center;
   background: white;
+  background-image: url(../../images/111test.png);
+  background-size: 50% auto;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  position: relative;
 }
 
+.advantage::before {
+  background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
 
-.advantage_bottom {
-  background: linear-gradient(180deg, white, #f5f5f5);
+.advantage::after {
+  background: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
