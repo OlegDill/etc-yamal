@@ -66,6 +66,8 @@ function close() {
   document.querySelector('.popup_opened').classList.remove('popup_opened');
   document.querySelector('.body').classList.toggle('body_overflow');
   document.removeEventListener('keydown', handleEscOrOverlayClick);
+  document.querySelector('.popup-more__list').classList.remove('popup-more__list-about');
+  document.querySelector('.popup-more__item').classList.remove('popup-more__item-about');
 }
 
 function open(evt) {
