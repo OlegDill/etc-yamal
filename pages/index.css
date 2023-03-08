@@ -12,18 +12,12 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__item/header__item.css);
 @import url(../blocks/header/__item-link/header__item-link.css);
-@import url(../blocks/header/__site/header__site.css);
-@import url(../blocks/header/__site-item/header__site-item.css);
-@import url(../blocks/header/__site-link/header__site-link.css);
 /* about */
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
-@import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__title/about__title.css);
-@import url(../blocks/about/__container-text/about__container-text.css);
 @import url(../blocks/about/__box/about__box.css);
 @import url(../blocks/about/__image/about__image.css);
-@import url(../blocks/about/__name/about__name.css);
 @import url(../blocks/about/__background/about__background.css);
 @import url(../blocks/about/__container/about__container.css);
 @import url(../blocks/about/__caption-box/about__caption-box.css);
@@ -32,20 +26,26 @@
 @import url(../blocks/about/__item/about__item.css);
 /* services */
 @import url(../blocks/services/services.css);
-@import url(../blocks/services/__box-caption/services__box-caption.css);
 @import url(../blocks/services/__box/services__box.css);
-@import url(../blocks/services/__container-photo/services__container-photo.css);
 @import url(../blocks/services/__container/services__container.css);
 @import url(../blocks/services/__item/services__item.css);
-@import url(../blocks/services/__list/services__list.css);
 @import url(../blocks/services/__photo/services__photo.css);
-@import url(../blocks/services/__scotch/services__scotch.css);
 @import url(../blocks/services/__title/services__title.css);
 @import url(../blocks/services/__link/services__link.css);
 @import url(../blocks/services/__consultation-button/services__consultation-button.css);
 @import url(../blocks/services/__consultation-caption/services__consultation-caption.css);
 @import url(../blocks/services/__consultation/services__consultation.css);
 @import url(../blocks/services/__consultation-caption-box/services__consultation-caption-box.css);
+@import url(../blocks/services/__card/services__card.css);
+@import url(../blocks/services/__more/services__more.css);
+/* services2 */
+@import url(../blocks/services2/services2.css);
+@import url(../blocks/services2/__caption/services2__caption.css);
+@import url(../blocks/services2/__card/services2__card.css);
+@import url(../blocks/services2/__container/services2__container.css);
+@import url(../blocks/services2/__image/services2__image.css);
+@import url(../blocks/services2/__more/services2__more.css);
+@import url(../blocks/services2/__title/services2__title.css);
 /* clients */
 @import url(../blocks/clients/clients.css);
 @import url(../blocks/clients/__title/clients__title.css);
@@ -70,7 +70,6 @@
 @import url(../blocks/licenses/__link/licenses__link.css);
 @import url(../blocks/licenses/__title/licenses__title.css);
 @import url(../blocks/licenses/__container/licenses__container.css);
-@import url(../blocks/licenses/__background/licenses__background.css);
 @import url(../blocks/licenses/__caption/licenses__caption.css);
 /* conacts */
 @import url(../blocks/contacts/contacts.css);

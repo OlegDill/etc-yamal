@@ -1,12 +1,12 @@
-/* .services__box {
-  filter: drop-shadow(0 15px 10px #616161);
+.services__card {
+  box-shadow: 0 10px 20px #616161;
   padding: 0;
   position: relative;
   display: flex;
   align-items: center;
   border-radius: 10px;
   flex-direction: column;
-  height: 370px;
+  /* height: 370px; */
   background-color: white;
   background-image: url(../../../images/111.png);
   background-size: 150% auto;
@@ -14,14 +14,18 @@
   background-position: bottom;
   overflow: hidden;
   transition: .5s;
+  cursor: pointer;
+
+  /* width: 100%;
+  padding-top: 100% */
 }
 
-.services__box:hover {
+.services__card:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px;
 }
 
-.services__box::before {
+.services__card::before {
   content: '';
   position: absolute;
   background-color: rgba(34, 36, 41, 0.75);
@@ -33,7 +37,7 @@
   opacity: 0;
 }
 
-.services__box:hover::before {
+.services__card:hover::before {
   z-index: 1;
   opacity: 1;
-} */
+}

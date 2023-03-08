@@ -1,9 +1,0 @@
-.licenses__background {
-  background-color: black;
-  transition: .5s;
-}
-
-.licenses__background:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0px 0px 20px black);
-}

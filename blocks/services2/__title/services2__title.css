@@ -1,4 +1,4 @@
-.about__name {
+.services2__title {
   color: black;
   font-family: 'Europeext Bold';
   font-size: 40px;
@@ -6,6 +6,6 @@
   border-bottom: solid;
   border-width: 3px;
   border-color: #940202;
-  max-width: 200px;
-  /* filter: drop-shadow(3px 3px 3px #616161); */
+  max-width: max-content;
+  padding-right: 2%;
 }

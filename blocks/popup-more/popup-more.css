@@ -11,6 +11,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 350px; */
-  padding: 200px;
+  padding: 0 100px;
 }

@@ -6,7 +6,7 @@
   border-bottom: solid;
   border-width: 3px;
   border-color: #940202;
-  max-width: 230px;
-  padding-left: 50px;
+  max-width: max-content;
+  padding-left: 2%;
   /* filter: drop-shadow(3px 3px 3px #616161); */
 }

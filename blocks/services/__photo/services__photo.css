@@ -1,29 +1,42 @@
 .services__photo {
-  width: 220px;
-  height: 220px;
   filter: drop-shadow(5px 5px 5px black);
+  width: 45%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 45%;
+  transition: 1s;
+}
+
+.services__card:hover .services__photo {
+  transform: scale(1.2);
 }
 
 .services__photo_one {
   rotate: 3deg;
+  background-image: url('../../../images/services1.jpg');
 }
 
 .services__photo_two {
   rotate: -3deg;
+  background-image: url('../../../images/services2.jpg');
 }
 
 .services__photo_three {
   rotate: 3deg;
+  background-image: url('../../../images/services3.jpg');
 }
 
 .services__photo_fourth {
   rotate: -3deg;
+  background-image: url('../../../images/services4.jpg');
 }
 
 .services__photo_fifth {
   rotate: 3deg;
+  background-image: url('../../../images/services5.jpg');
 }
 
 .services__photo_sixth {
   rotate: -3deg;
+  background-image: url('../../../images/services6.jpg');
 }

@@ -1,0 +1,30 @@
+.services2__card {
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  box-shadow: 0px 0px 10px;
+}
+
+.services2__card::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(34, 36, 41, 0.75);
+  width: 100%;
+  height: 200%;
+  top: 0;
+  clip-path: polygon(0 0px, 0% 100%, 500% 40%);
+  z-index: 1;
+  transition: .5s;
+  margin-top: 15vw;
+}
+
+.services2__card:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 20px black);
+}
+
+.services2__card:hover::before {
+  top: -100%;
+}

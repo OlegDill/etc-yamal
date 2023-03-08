@@ -46,7 +46,7 @@ $(document).ready(function () {
 
 
 
-let elements = document.querySelectorAll('.services__link');
+let elements = document.querySelectorAll('.services__card');
 let about = document.querySelector('.about__button');
 
 elements.forEach((item) => {
@@ -76,7 +76,7 @@ function open(evt) {
   document.querySelector('.popup').classList.add('popup_opened');
   document.querySelector('.popup__close').addEventListener('click', close);
   document.querySelector('.popup-more').addEventListener('click', handleEscOrOverlayClick);
-  if (evt.currentTarget.classList.value === 'services__link services__link_one') {
+  if (evt.currentTarget.classList.value === 'services__card services__card_one') {
     document.querySelector('.popup-more__caption').textContent = "Системы пожарной сигнализации";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">монтажные и пусконаладочные работы, техническое обслуживание и ремонт систем пожаротушения, оповещения людей о пожаре;</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">монтаж и техническое обслуживание систем дымоудаления (противодымной вентиляции);</li>';
@@ -88,11 +88,11 @@ function open(evt) {
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">разработка и изготвление планов эвакуации людей при пожаре;</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">разработка проектной и рабочей документации систем противопожарной защиты (системы водяного, газового, порошкового и аэрозольного пожаротушения, системы пожарной сигнализации и оповещения людей о пожаре, системы противопожарного водопровода).</li>';
     // document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item"></li>';
-  } else if (evt.currentTarget.classList.value === 'services__link services__link_two') {
+  } else if (evt.currentTarget.classList.value === 'services__card services__card_two') {
     document.querySelector('.popup-more__caption').textContent = "Проектирование";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">проектирование систем пожаротушения, пожарной сигнализации и оповещения людей о пожаре;</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">проектирование систем видеонаблюдения и контроля доступа (СКУД);</li>';
-  } else if (evt.currentTarget.classList.value === 'services__link services__link_three') {
+  } else if (evt.currentTarget.classList.value === 'services__card services__card_three') {
     document.querySelector('.popup-more__caption').textContent = "Пожарный аудит, расчеты";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">проведение независимой оценки пожарного риска (аудит пожарной безопасности) в соответствии с Постановлением Правительства №304 от 7 апреля 2009г.;</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">проведение расчетов по оценке пожарного риска в соответствии с Приказами МЧС России №382 от 30 июня 2009г. и №404 от 10 июня 2009г.;</li>';
@@ -103,15 +103,15 @@ function open(evt) {
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">разработка и согласование ведомственных стандартов, правил пожарной безопасности и других нормативных документов;</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">изготовление паспортов антитеррористической защищенности (паспортов безопасности);</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">анализ предписаний Государственного пожарного надзора и помощь в их выполнении.</li>';
-  } else if (evt.currentTarget.classList.value === 'services__link services__link_fourth') {
+  } else if (evt.currentTarget.classList.value === 'services__card services__card_fourth') {
     document.querySelector('.popup-more__caption').textContent = "Системы охранной сигнализации";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">проектирование, монтаж и техническое обслуживание систем охранной сигнализации;</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">монтаж и техническое обслуживание антикражного (противокражного) оборудования для объектов торговли;</li>';
     document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">изготовление паспортов антитеррористической защищенности (паспортов безопасности);</li>';
-  } else if (evt.currentTarget.classList.value === 'services__link services__link_fifth') {
+  } else if (evt.currentTarget.classList.value === 'services__card services__card_fifth') {
     document.querySelector('.popup-more__caption').textContent = "Системы контроля и управления доступом";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">проектирование, монтаж и техническое обслуживание систем видеонаблюдения и контроля доступа (СКУД);</li>';
-  } else if (evt.currentTarget.classList.value === 'services__link services__link_sixth') {
+  } else if (evt.currentTarget.classList.value === 'services__card services__card_sixth') {
     document.querySelector('.popup-more__caption').textContent = "Системы видеонаблюдения";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">монтажные и пусконаладочные работы, техническое обслуживание и ремонт систем видеонаблюдения;</li>';
   } else if (evt.currentTarget.classList.value === 'about__button') {

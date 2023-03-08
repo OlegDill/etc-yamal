@@ -1,0 +1,21 @@
+.services2__more {
+  margin: 40px 0 0 0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  font-size: 36px;
+  color: #940202;
+  z-index: -1;
+  opacity: 0;
+  transition: 1s;
+  font-family: 'Europeext Regular';
+  text-align: center;
+  text-shadow: 0 0 5px white
+}
+
+.services2__card:hover .services2__more {
+  margin-top: 0;
+  z-index: 1;
+  opacity: 1;
+}
