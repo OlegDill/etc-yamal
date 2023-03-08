@@ -98,6 +98,7 @@
 @import url(../blocks/popup-more/__form/popup-more__form.css);
 @import url(../blocks/popup-more/__list-about/popup-more__list-about.css);
 @import url(../blocks/popup-more/__item-about/popup-more__item-about.css);
+@import url(../blocks/popup-more/__title/popup-more__title.css);
 /* popup call*/
 @import url(../blocks/popup-call/popup-call.css);
 @import url(../blocks/popup-call/__button-close/popup-call__button-close.css);

@@ -49,7 +49,8 @@ $(document).ready(function () {
 let elements = document.querySelectorAll('.services__card');
 let aboutList = document.querySelectorAll('.about__caption-list');
 let about = document.querySelector('.about__button');
-let callButton = document.querySelector('.services__consultation-button');
+
+let templateAbout = document.querySelector('.template__about');
 
 elements.forEach((item) => {
   item.addEventListener('click', open);
@@ -60,8 +61,6 @@ aboutList.forEach((item) => {
 });
 
 about.addEventListener('click', open);
-
-callButton.addEventListener('click', open);
 
 handleEscOrOverlayClick = (event) => {
   console.log('handleEscOrOverlayClick');
@@ -76,13 +75,13 @@ function close() {
   document.removeEventListener('keydown', handleEscOrOverlayClick);
   document.querySelector('.popup-more__list').classList.remove('popup-more__list-about');
   document.querySelector('.popup-more__item').classList.remove('popup-more__item-about');
+  document.querySelector('.popup-more__form').innerHTML = '';
 }
 
 function open(evt) {
   document.querySelector('.body').classList.toggle('body_overflow');
   document.addEventListener('keydown', handleEscOrOverlayClick);
   document.querySelector('.popup').classList.add('popup_opened');
-  document.querySelector('.popup__close').addEventListener('click', close);
   document.querySelector('.popup-more').addEventListener('click', handleEscOrOverlayClick);
   if (evt.currentTarget.classList.value === 'services__card services__card_one') {
     document.querySelector('.popup-more__caption').textContent = "Системы пожарной сигнализации";
@@ -123,12 +122,10 @@ function open(evt) {
     document.querySelector('.popup-more__caption').textContent = "Системы видеонаблюдения";
     document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">монтажные и пусконаладочные работы, техническое обслуживание и ремонт систем видеонаблюдения;</li>';
   } else if (evt.currentTarget.classList.value === 'about__button' || 'about__caption-list') {
-    document.querySelector('.popup-more__caption').textContent = "О нас";
-    document.querySelector('.popup-more__list').innerHTML = '<li class="popup-more__item">Обеспечим безопасность на вашем предприятии – закажите монтаж и дальнейшее техническое обслуживание систем пожаротушения, контроля доступа, видеонаблюдения, оповещения людей о пожаре. Предоставим и установим все необходимое оборудование, наша компания <span>ООО «ИТК «ЯМАЛ» находится в г. Новый Уренгой</span>, осуществляет свою деятельность в городах <span>Ямало-Ненецкого и Ханты-Мансийского автономных округов.</span> Имеются все необходимые лицензии и допуски к СРО в области проектирования (№ СРО-П-161-09092010) и СРО в сфере строительства (№ СРО-С-073-20112009). </li>';
-    document.querySelector('.popup-more__list').innerHTML += '<li class="popup-more__item">Предлагаем заказать услуги в области обеспечения пожарной безопасности <span>в Новом Уренгое и других городах ЯНАО.</span< На все виды работ имеются соответствующие лицензии МЧС России, допуск к СРО, сертификат системы качества ISO9001-2015. В штате нашей компании работают опытные специалисты с высшим пожарным и техническим образованием.</li>';
+    let clone = templateAbout.content.cloneNode(true);
+    document.querySelector('.popup-more__form').appendChild(clone);
     document.querySelector('.popup-more__list').classList.add('popup-more__list-about');
     document.querySelector('.popup-more__item').classList.add('popup-more__item-about');
-  } else if (evt.currentTarget.classList.value === 'services__consultation-button') {
-    console.log('ook')
   }
+  document.querySelector('.popup__close').addEventListener('click', close);
 }

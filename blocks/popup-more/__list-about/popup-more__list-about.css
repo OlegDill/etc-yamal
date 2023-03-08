@@ -1,4 +1,5 @@
 .popup-more__list.popup-more__list-about {
   font-size: 22px;
   list-style: none;
+  padding: 0;
 }
