@@ -56,6 +56,9 @@ let templateMoreThree = document.querySelector('.template__more-three');
 let templateMoreFourth = document.querySelector('.template__more-fourth');
 let templateMoreFifth = document.querySelector('.template__more-fifth');
 let templateMoreSixth = document.querySelector('.template__more-sixth');
+let buttonCall = document.querySelector('.services__consultation-button');
+
+buttonCall.addEventListener('click', open);
 
 
 elements.forEach((item) => {
@@ -85,26 +88,35 @@ function close() {
 }
 
 function open(evt) {
+  console.log(evt.currentTarget.classList.value);
   document.querySelector('.body').classList.toggle('body_overflow');
   document.addEventListener('keydown', handleEscOrOverlayClick);
-  document.querySelector('.popup').classList.add('popup_opened');
-  document.querySelector('.popup-more').addEventListener('click', handleEscOrOverlayClick);
-  if (evt.currentTarget.classList.value === 'services__card services__card_one') {
-    document.querySelector('.popup-more__form').appendChild(templateMoreOne.content.cloneNode(true));
-  } else if (evt.currentTarget.classList.value === 'services__card services__card_two') {
-    document.querySelector('.popup-more__form').appendChild(templateMoreTwo.content.cloneNode(true));
-  } else if (evt.currentTarget.classList.value === 'services__card services__card_three') {
-    document.querySelector('.popup-more__form').appendChild(templateMoreThree.content.cloneNode(true));
-  } else if (evt.currentTarget.classList.value === 'services__card services__card_fourth') {
-    document.querySelector('.popup-more__form').appendChild(templateMoreFourth.content.cloneNode(true));
-  } else if (evt.currentTarget.classList.value === 'services__card services__card_fifth') {
-    document.querySelector('.popup-more__form').appendChild(templateMoreFifth.content.cloneNode(true));
-  } else if (evt.currentTarget.classList.value === 'services__card services__card_sixth') {
-    document.querySelector('.popup-more__form').appendChild(templateMoreSixth.content.cloneNode(true));
-  } else if (evt.currentTarget.classList.value === 'about__button' || 'about__caption-list') {
-    document.querySelector('.popup-more__form').appendChild(templateAbout.content.cloneNode(true));
-    document.querySelector('.popup-more__list').classList.add('popup-more__list-about');
-    document.querySelector('.popup-more__item').classList.add('popup-more__item-about');
+  if (evt.currentTarget.classList.value === 'services__consultation-button') {
+    console.log('ppp');
+    document.querySelector('.popup-call').addEventListener('click', handleEscOrOverlayClick);
+    document.querySelector('.popup-call').classList.add('popup_opened');
+    document.querySelector('.popup__close').addEventListener('click', close);
+
+  } else {
+    document.querySelector('.popup-more').classList.add('popup_opened');
+    document.querySelector('.popup-more').addEventListener('click', handleEscOrOverlayClick);
+    if (evt.currentTarget.classList.value === 'services__card services__card_one') {
+      document.querySelector('.popup-more__form').appendChild(templateMoreOne.content.cloneNode(true));
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_two') {
+      document.querySelector('.popup-more__form').appendChild(templateMoreTwo.content.cloneNode(true));
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_three') {
+      document.querySelector('.popup-more__form').appendChild(templateMoreThree.content.cloneNode(true));
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_fourth') {
+      document.querySelector('.popup-more__form').appendChild(templateMoreFourth.content.cloneNode(true));
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_fifth') {
+      document.querySelector('.popup-more__form').appendChild(templateMoreFifth.content.cloneNode(true));
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_sixth') {
+      document.querySelector('.popup-more__form').appendChild(templateMoreSixth.content.cloneNode(true));
+    } else if (evt.currentTarget.classList.value === 'about__button' || 'about__caption-list') {
+      document.querySelector('.popup-more__form').appendChild(templateAbout.content.cloneNode(true));
+      document.querySelector('.popup-more__list').classList.add('popup-more__list-about');
+      document.querySelector('.popup-more__item').classList.add('popup-more__item-about');
+    }
+    document.querySelector('.popup__close').addEventListener('click', close);
   }
-  document.querySelector('.popup__close').addEventListener('click', close);
 }

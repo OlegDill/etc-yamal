@@ -101,9 +101,11 @@
 @import url(../blocks/popup-more/__title/popup-more__title.css);
 /* popup call*/
 @import url(../blocks/popup-call/popup-call.css);
+@import url(../blocks/popup-call/__box-number/popup-call__box-number.css);
 @import url(../blocks/popup-call/__button-close/popup-call__button-close.css);
 @import url(../blocks/popup-call/__button-submit/popup-call__button-submit.css);
 @import url(../blocks/popup-call/__container/popup-call__container.css);
+@import url(../blocks/popup-call/__fieldset/popup-call__fieldset.css);
 @import url(../blocks/popup-call/__form/popup-call__form.css);
 @import url(../blocks/popup-call/__input-name/popup-call__input-name.css);
 @import url(../blocks/popup-call/__input-number/popup-call__input-number.css);

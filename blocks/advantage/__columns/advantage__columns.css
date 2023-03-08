@@ -2,5 +2,8 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
   margin: 100px 0 0 0;
+  position: relative;
+  /* transform: skewX(-20deg); */
 }

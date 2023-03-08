@@ -5,8 +5,39 @@
   width: 70px;
   height: 70px;
   transition: .5s;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 50%;
+  background-position: center;
+  /* transform: skewX(20deg); */
 }
 
-.advantage__box:hover .advantage__image {
-  transform: scaleX(-1) scaleX(-1);
+.advantage__image_one {
+  background-image: url('../../../images/advantage_one.png');
+  background-size: 100%;
+}
+
+.advantage__image_two {
+  background-image: url('../../../images/advantage_two.png');
+  background-size: 100%;
+}
+
+.advantage__image_three {
+  background-image: url('../../../images/advantage_three.png');
+  background-size: 100%;
+}
+
+.advantage__image_result {
+  background-image: url('../../../images/advantage_result.png');
+  background-size: 60%;
+}
+
+.advantage__image_term {
+  background-image: url('../../../images/advantage_term.png');
+  background-size: 60%;
+}
+
+.advantage__image_cooperation {
+  background-image: url('../../../images/advantage_cooperation.png');
+  background-size: 60%;
 }

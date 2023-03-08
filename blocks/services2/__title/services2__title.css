@@ -2,10 +2,11 @@
   color: black;
   font-family: 'Europeext Bold';
   font-size: 40px;
-  margin: 0 0 20px 0;
+  margin: 0 auto 20px auto;
   border-bottom: solid;
   border-width: 3px;
   border-color: #940202;
   max-width: max-content;
   padding-right: 2%;
+  padding-left: 2%;
 }
