@@ -1,13 +1,15 @@
 .about__title {
   text-transform: uppercase;
-  color: #940202;
+  /* color: #940202; */
+  color: white;
   font-family: 'Europeext Bold';
   font-size: 2vw;
   margin: 0 auto;
   text-align: center;
   line-height: 70px;
   transform: skewX(-20deg);
-  text-shadow: 0px 0px 15px white;
+  /* text-shadow: 0px 0px 15px white; */
+  text-shadow: 0px 0px 15px red;
 }
 
 .about__title_name {
