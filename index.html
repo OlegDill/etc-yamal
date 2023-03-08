@@ -58,58 +58,34 @@
     <h3 class="services__title" id="t2">Услуги</h3>
     <div class="services__container">
       <div class="services__card services__card_one">
-        <!-- <a class="services__link services__link_one"> -->
-        <!-- <div class="services__box services__box_one"> -->
         <p class="services__more">Подробнее</p>
         <p class="services__item services__item_one">Системы пожарной сигнализации</p>
         <div class="services__photo services__photo_one"></div>
-        <!-- </div> -->
-        <!-- </a> -->
       </div>
       <div class="services__card services__card_two">
-        <!-- <a class="services__link services__link_two">
-          <div class="services__box services__box_two"> -->
-            <p class="services__more">Подробнее</p>
-            <p class="services__item services__item_two">Проектирование</p>
-            <div class="services__photo services__photo_two"></div>
-          <!-- </div>
-        </a> -->
+        <p class="services__more">Подробнее</p>
+        <p class="services__item services__item_two">Проектирование</p>
+        <div class="services__photo services__photo_two"></div>
       </div>
       <div class="services__card services__card_three">
-        <!-- <a class="services__link services__link_three">
-          <div class="services__box services__box_three"> -->
-            <p class="services__more">Подробнее</p>
-            <p class="services__item services__item_three">Пожарный аудит, расчеты</p>
-            <div class="services__photo services__photo_three"></div>
-          <!-- </div>
-        </a> -->
+        <p class="services__more">Подробнее</p>
+        <p class="services__item services__item_three">Пожарный аудит, расчеты</p>
+        <div class="services__photo services__photo_three"></div>
       </div>
       <div class="services__card services__card_fourth">
-        <!-- <a class="services__link services__link_fourth">
-          <div class="services__box services__box_fourth"> -->
-            <p class="services__more">Подробнее</p>
-            <p class="services__item services__item_fourth">Системы охранной сигнализации</p>
-            <div class="services__photo services__photo_fourth"></div>
-          <!-- </div>
-        </a> -->
+        <p class="services__more">Подробнее</p>
+        <p class="services__item services__item_fourth">Системы охранной сигнализации</p>
+        <div class="services__photo services__photo_fourth"></div>
       </div>
       <div class="services__card services__card_fifth">
-        <!-- <a class="services__link services__link_fifth">
-          <div class="services__box services__box_fifth"> -->
-            <p class="services__more">Подробнее</p>
-            <p class="services__item services__item_fifth">Системы контроля и управления доступом</p>
-            <div class="services__photo services__photo_fifth"></div>
-          <!-- </div>
-        </a> -->
+        <p class="services__more">Подробнее</p>
+        <p class="services__item services__item_fifth">Системы контроля и управления доступом</p>
+        <div class="services__photo services__photo_fifth"></div>
       </div>
       <div class="services__card services__card_sixth">
-        <!-- <a class="services__link services__link_sixth">
-          <div class="services__box services__box_sixth"> -->
-            <p class="services__more">Подробнее</p>
-            <p class="services__item services__item_sixth">Системы видеонаблюдения</p>
-            <div class="services__photo services__photo_sixth"></div>
-          <!-- </div>
-        </a> -->
+        <p class="services__more">Подробнее</p>
+        <p class="services__item services__item_sixth">Системы видеонаблюдения</p>
+        <div class="services__photo services__photo_sixth"></div>
       </div>
     </div>
     <div class="services__consultation">
@@ -298,14 +274,28 @@
       </ul>
     </div>
   </footer>
-  <!-- popup -->
+  <!-- popup more-->
   <div class="popup popup-more">
     <div class="popup-more__container">
-      <form class="popup__form popup-more__form" name="formMore" novalidate>
-        <h2 class="popup-more__caption">Name</h2>
+      <form class="popup__form popup-more__form" name="formMore">
+        <h3 class="popup-more__caption">Name</h3>
         <ul class="popup-more__list">
         </ul>
         <button type="button" class="popup__close popup-more__close-btn"></button>
+      </form>
+    </div>
+  </div>
+  <!-- popup call -->
+  <div class="popup popup-call">
+    <div class="popup-call__container">
+      <form class="popup__form popup-call__form" name="formCall" novalidate>
+        <h3 class="popup-call__title">Получить бесплатную консультацию</h3>
+        <span class="popup-call__span-name">Ваше имя:</span>
+        <input class="popup-call__input-name">
+        <span class="popup-call__span-number">Ваш номер телефона:</span>
+        <input class="popup-call__input-number">
+        <button type="submit" class="popup-call__button-submit">Отправить заявку</button>
+        <button type="button" class="popup__close popup-call__button-close"></button>
       </form>
     </div>
   </div>

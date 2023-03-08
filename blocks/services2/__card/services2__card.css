@@ -17,12 +17,13 @@
   clip-path: polygon(0 0px, 0% 100%, 500% 40%);
   z-index: 1;
   transition: .5s;
-  margin-top: 15vw;
+  margin-top: 60%;
 }
 
 .services2__card:hover {
   transform: scale(1.1);
   filter: drop-shadow(0px 0px 20px black);
+  z-index: 2;
 }
 
 .services2__card:hover::before {

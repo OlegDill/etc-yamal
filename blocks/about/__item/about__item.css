@@ -5,12 +5,14 @@
 
 .about__item_title {
   font-family: 'Europeext Regular';
-  font-size: 16px;
+  /* font-size: 16px; */
   color: #940202;
+  font-size: 1.2vw;
 }
 
 .about__item_subtitle {
   font-family: 'Europeext Bold';
   font-size: 18px;
   color: black;
+  font-size: 1.3vw;
 }

@@ -1,8 +1,14 @@
 .popup-more__item {
   font-family: 'Montserrat Regular';
   margin-bottom: 10px;
+  font-size: 1.5vw;
 }
 
 .popup-more__item:last-child {
   margin-bottom: 0;
+}
+
+.popup-more__item span {
+  color: #940202;
+  font-family: 'Montserrat Medium';
 }

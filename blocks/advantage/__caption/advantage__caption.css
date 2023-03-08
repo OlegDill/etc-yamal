@@ -7,6 +7,75 @@
 
 .advantage__caption span {
   font-family: 'Europeext Bold';
-  color: #940202;
   text-transform: uppercase;
+  background-color: red;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: coloranime 3s infinite alternate-reverse;
+}
+
+@keyframes coloranime {
+  0% {
+    background-image: linear-gradient(to right, red, 0%, #752323);
+  }
+  5% {
+    background-image: linear-gradient(to right, red, 5%, #752323);
+  }
+  10% {
+    background-image: linear-gradient(to right, red, 10%, #752323);
+  }
+  15% {
+    background-image: linear-gradient(to right, red, 15%, #752323);
+  }
+  20% {
+    background-image: linear-gradient(to right, red, 20%, #752323);
+  }
+  25% {
+    background-image: linear-gradient(to right, red, 25%, #752323);
+  }
+  30% {
+    background-image: linear-gradient(to right, red, 30%, #752323);
+  }
+  35% {
+    background-image: linear-gradient(to right, red, 35%, #752323);
+  }
+  40% {
+    background-image: linear-gradient(to right, red, 40%, #752323);
+  }
+  45% {
+    background-image: linear-gradient(to right, red, 45%, #752323);
+  }
+  50% {
+    background-image: linear-gradient(to right, red, 50%, #752323);
+  }
+  55% {
+    background-image: linear-gradient(to right, red, 55%, #752323);
+  }
+  60% {
+    background-image: linear-gradient(to right, red, 60%, #752323);
+  }
+  65% {
+    background-image: linear-gradient(to right, red, 65%, #752323);
+  }
+  70% {
+    background-image: linear-gradient(to right, red, 70%, #752323);
+  }
+  75% {
+    background-image: linear-gradient(to right, red, 75%, #752323);
+  }
+  80% {
+    background-image: linear-gradient(to right, red, 80%, #752323);
+  }
+  85% {
+    background-image: linear-gradient(to right, red, 85%, #752323);
+  }
+  90% {
+    background-image: linear-gradient(to right, red, 90%, #752323);
+  }
+  95% {
+    background-image: linear-gradient(to right, red, 95%, #752323);
+  }
+  100% {
+    background-image: linear-gradient(to right, red, 100%, #752323);
+  }
 }

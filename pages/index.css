@@ -87,7 +87,7 @@
 @import url(../blocks/footer/__container-logo/footer__container-logo.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__contact-title/footer__contact-title.css);
-/* popup */
+/* popup more*/
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup-more/popup-more.css);
 @import url(../blocks/popup-more/__close-btn/popup-more__close-btn.css);
@@ -98,3 +98,14 @@
 @import url(../blocks/popup-more/__form/popup-more__form.css);
 @import url(../blocks/popup-more/__list-about/popup-more__list-about.css);
 @import url(../blocks/popup-more/__item-about/popup-more__item-about.css);
+/* popup call*/
+@import url(../blocks/popup-call/popup-call.css);
+@import url(../blocks/popup-call/__button-close/popup-call__button-close.css);
+@import url(../blocks/popup-call/__button-submit/popup-call__button-submit.css);
+@import url(../blocks/popup-call/__container/popup-call__container.css);
+@import url(../blocks/popup-call/__form/popup-call__form.css);
+@import url(../blocks/popup-call/__input-name/popup-call__input-name.css);
+@import url(../blocks/popup-call/__input-number/popup-call__input-number.css);
+@import url(../blocks/popup-call/__span-name/popup-call__span-name.css);
+@import url(../blocks/popup-call/__span-number/popup-call__span-number.css);
+@import url(../blocks/popup-call/__title/popup-call__title.css);
