@@ -1,7 +1,7 @@
 .services__item {
-  font-family: 'Europeext Regular';
+  font-family: 'Europeext Bold';
   font-size: 14px;
-  margin: 5% 10% 1% 10%;
+  margin: 5% 10% 3% 10%;
   text-align: center;
   color: #940202d1;
   filter: drop-shadow(5px 5px 5px #616161);
@@ -12,7 +12,6 @@
 .services__card:hover .services__item {
   z-index: 9;
   color: #ffffff;
-  font-family: 'Europeext Bold';
 }
 
 .services__item::before {
