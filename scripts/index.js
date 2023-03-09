@@ -83,7 +83,7 @@ function close() {
   document.querySelector('.body').classList.toggle('body_overflow');
   document.removeEventListener('keydown', handleEscOrOverlayClick);
   document.querySelector('.popup-more__list').classList.remove('popup-more__list-about');
-  document.querySelector('.popup-more__item').classList.remove('popup-more__item-about');
+  // document.querySelector('.popup-more__item').classList.remove('popup-more__item-about');
   document.querySelector('.popup-more__form').innerHTML = '';
 }
 
@@ -115,7 +115,7 @@ function open(evt) {
     } else if (evt.currentTarget.classList.value === 'about__button' || 'about__caption-list') {
       document.querySelector('.popup-more__form').appendChild(templateAbout.content.cloneNode(true));
       document.querySelector('.popup-more__list').classList.add('popup-more__list-about');
-      document.querySelector('.popup-more__item').classList.add('popup-more__item-about');
+      // document.querySelector('.popup-more__item').classList.add('popup-more__item-about');
     }
     document.querySelector('.popup__close').addEventListener('click', close);
   }
