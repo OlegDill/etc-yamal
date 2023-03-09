@@ -79,6 +79,7 @@
 @import url(../blocks/contacts/__title/contacts__title.css);
 @import url(../blocks/contacts/__container/contacts__container.css);
 @import url(../blocks/contacts/__map/contacts__map.css);
+@import url(../blocks/contacts/__icon/contacts__icon.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about/footer__about.css);

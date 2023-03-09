@@ -1,0 +1,35 @@
+.contacts__icon {
+  width: 1.2vw;
+  height: 1.2vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1vw;
+}
+
+.contacts__item:hover .contacts__icon {
+  filter: drop-shadow(0 0 3px #616161);
+}
+
+.contacts__icon_location {
+  background-image: url('../../../images/icon-location.svg');
+}
+
+.contacts__icon_tel-sot {
+  background-image: url('../../../images/icon-tel-sot.svg');
+}
+
+.contacts__icon_tel-home {
+  background-image: url('../../../images/icon-tel-home.svg');
+}
+
+.contacts__icon_telegram {
+  background-image: url('../../../images/icon-telegram.svg');
+}
+
+.contacts__icon_whatsapp {
+  background-image: url('../../../images/icon-whatsapp.svg');
+}
+
+.contacts__icon_mail {
+  background-image: url('../../../images/icon-mail.svg');
+}
