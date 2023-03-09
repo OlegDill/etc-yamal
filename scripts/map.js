@@ -38,3 +38,9 @@
 
 
 
+var myPlacemark = new ymaps.Placemark([55.76, 37.56], {}, {
+  iconLayout: 'default#image',
+  iconImageHref: '../images/logo.png',
+  iconImageSize: [30, 42],
+  iconImageOffset: [-3, -42]
+});

@@ -13,6 +13,7 @@
   padding-top: 100%;
   rotate: 0deg;
   margin-top: -3%;
+  filter: blur(3px);
 }
 
 .services__photo_one {

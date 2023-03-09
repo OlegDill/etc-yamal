@@ -20,7 +20,7 @@
   width: 200%;
   height: 100px;
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   left: -50%;
   right: 0;
   z-index: -1;
@@ -31,4 +31,5 @@
 .services__card:hover .services__item::before {
   z-index: 1;
   opacity: .5;
+  bottom: 0;
 }
