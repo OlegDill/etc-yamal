@@ -1,6 +1,6 @@
 .header__item-link {
   font-family: 'Europeext Regular';
-  font-size: 16px;
+  font-size: 1vw;
   transition: .2s;
   text-align: center;
   color: white;
@@ -10,5 +10,4 @@
 .header__item:hover .header__item-link{
   opacity: .5;
   filter: drop-shadow(0 0 3px white);
-
 }

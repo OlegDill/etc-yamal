@@ -1,8 +1,10 @@
 .clients__container {
   background: url("../../../images/clients.jpeg") repeat-x;
-  height: 275px;
+  /* height: 275px; */
   width: 999999px;
   animation: slide 20000s linear infinite;
+  background-size: 60vw;
+  height: 12vw;
 }
 
 @keyframes slide {
