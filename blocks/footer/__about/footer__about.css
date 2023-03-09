@@ -1,8 +1,8 @@
 .footer__about {
-  margin: 0 0 5px 0;
+  margin: 0 0 0.5vw 0;
   color: #b4b2b2;
   font-family: 'Europeext Regular';
-  font-size: 10px;
+  font-size: 0.5vw;
 }
 
 .footer__about:last-child {

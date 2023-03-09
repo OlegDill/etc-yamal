@@ -2,6 +2,7 @@
   margin: 0;
   transition: .2s;
   max-width: fit-content;
+  font-size: 1vw;
 }
 
 .footer__contact-item:hover {
