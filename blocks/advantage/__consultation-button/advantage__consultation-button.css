@@ -1,4 +1,4 @@
-.advantage__button-contact {
+.advantage__consultation-button {
   margin: 50px 0 0 0;
   background-color: #940202;
   padding: 0;
@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-.advantage__button-contact span {
+.advantage__consultation-button span {
   color: #f5f5f5;
   font-family: 'Europeext Regular';
   font-size: 1vw;
@@ -23,7 +23,7 @@
   transform: skewX(20deg);
 }
 
-.advantage__button-contact:hover {
+.advantage__consultation-button:hover {
   background-color: #c80101;
   color: #fff;
   transform: translateY(-7px) skewX(-20deg);

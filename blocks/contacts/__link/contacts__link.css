@@ -1,7 +1,7 @@
 .contacts__link {
   color: black;
   font-family: 'Europeext Regular';
-  font-size: 18px;
+  font-size: 1.4vw;
 }
 
 .contacts__item:hover .contacts__link {

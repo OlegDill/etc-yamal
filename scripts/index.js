@@ -56,7 +56,7 @@ let templateMoreThree = document.querySelector('.template__more-three');
 let templateMoreFourth = document.querySelector('.template__more-fourth');
 let templateMoreFifth = document.querySelector('.template__more-fifth');
 let templateMoreSixth = document.querySelector('.template__more-sixth');
-let buttonCall = document.querySelector('.services__consultation-button');
+let buttonCall = document.querySelector('.advantage__consultation-button');
 
 buttonCall.addEventListener('click', open);
 
@@ -91,7 +91,7 @@ function open(evt) {
   console.log(evt.currentTarget.classList.value);
   document.querySelector('.body').classList.toggle('body_overflow');
   document.addEventListener('keydown', handleEscOrOverlayClick);
-  if (evt.currentTarget.classList.value === 'services__consultation-button') {
+  if (evt.currentTarget.classList.value === 'advantage__consultation-button') {
     console.log('ppp');
     document.querySelector('.popup-call').addEventListener('click', handleEscOrOverlayClick);
     document.querySelector('.popup-call').classList.add('popup_opened');

@@ -1,14 +1,18 @@
 .services__photo {
   filter: drop-shadow(5px 5px 5px black);
-  width: 45%;
+  width: 70%;
   background-position: center;
   background-size: cover;
-  padding-top: 45%;
+  padding-top: 70%;
   transition: 1s;
 }
 
 .services__card:hover .services__photo {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
+  width: 100%;
+  padding-top: 100%;
+  rotate: 0deg;
+
 }
 
 .services__photo_one {

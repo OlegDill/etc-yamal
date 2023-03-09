@@ -41,3 +41,7 @@
   background-image: url('../../../images/advantage_cooperation.png');
   background-size: 60%;
 }
+
+.advantage__box:hover .advantage__image {
+  transform: scaleX(-1) scaleX(-1);
+}

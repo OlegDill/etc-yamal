@@ -33,6 +33,10 @@ $('.advantage__button-contact').click(() => {
   scrollToAnchor('.contacts');
 })
 
+$('.advantage__text_contacts').click(() => {
+  scrollToAnchor('.contacts');
+})
+
 $('.advantage__text_span').click(() => {
   scrollToAnchor('.reviews');
 })

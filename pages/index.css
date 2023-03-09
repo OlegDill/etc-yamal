@@ -32,10 +32,6 @@
 @import url(../blocks/services/__photo/services__photo.css);
 @import url(../blocks/services/__title/services__title.css);
 @import url(../blocks/services/__link/services__link.css);
-@import url(../blocks/services/__consultation-button/services__consultation-button.css);
-@import url(../blocks/services/__consultation-caption/services__consultation-caption.css);
-@import url(../blocks/services/__consultation/services__consultation.css);
-@import url(../blocks/services/__consultation-caption-box/services__consultation-caption-box.css);
 @import url(../blocks/services/__card/services__card.css);
 @import url(../blocks/services/__more/services__more.css);
 /* services2 */
@@ -60,6 +56,10 @@
 @import url(../blocks/advantage/__title/advantage__title.css);
 @import url(../blocks/advantage/__button-contact/advantage__button-contact.css);
 @import url(../blocks/advantage/__text/advantage__text.css);
+@import url(../blocks/advantage/__consultation/advantage__consultation.css);
+@import url(../blocks/advantage/__consultation-button/advantage__consultation-button.css);
+@import url(../blocks/advantage/__consultation-caption-box/advantage__consultation-caption-box.css);
+@import url(../blocks/advantage/__consultation-caption/advantage__consultation-caption.css);
 /* reviews */
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__doc/reviews__doc.css);
@@ -77,6 +77,8 @@
 @import url(../blocks/contacts/__link/contacts__link.css);
 @import url(../blocks/contacts/__list/contacts__list.css);
 @import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__map/contacts__map.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about/footer__about.css);

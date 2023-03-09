@@ -15,10 +15,6 @@
   z-index: 1;
 }
 
-
-
-
-
 .advantage__box_left::before {
   content: '';
   background: white;

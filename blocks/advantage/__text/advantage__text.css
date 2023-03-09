@@ -10,6 +10,15 @@
   transition: .3s;
 }
 
+.advantage__text_contacts {
+  color: black;
+  transition: .3s;
+}
+
 .advantage__text_span:hover {
+  opacity: .5;
+}
+
+.advantage__text_contacts:hover {
   opacity: .5;
 }
