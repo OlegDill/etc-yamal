@@ -13,3 +13,31 @@
   align-items: center;
   padding: 0 200px;
 }
+
+@media (max-width: 1280px) {
+  .popup-more {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .popup-more {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .popup-more {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .popup-more {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

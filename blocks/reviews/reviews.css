@@ -3,3 +3,31 @@
   margin: 0 200px 0 200px;
   background: white;
 }
+
+@media (max-width: 1280px) {
+  .reviews {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .reviews {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .reviews {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
