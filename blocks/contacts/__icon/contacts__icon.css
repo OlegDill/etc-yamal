@@ -1,14 +1,14 @@
 .contacts__icon {
-  width: 1.2vw;
+  width: 2vw;
   height: 1.2vw;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 1vw;
 }
 
-.contacts__item:hover .contacts__icon {
+/* .contacts__item:hover .contacts__icon {
   filter: drop-shadow(0 0 3px #616161);
-}
+} */
 
 .contacts__icon_location {
   background-image: url('../../../images/icon-location.svg');

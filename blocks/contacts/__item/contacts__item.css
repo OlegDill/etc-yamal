@@ -4,6 +4,7 @@
   max-width: fit-content;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .contacts__item:last-child {
