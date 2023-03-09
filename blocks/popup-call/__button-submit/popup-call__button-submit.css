@@ -1,23 +1,31 @@
 .popup-call__button-submit {
   margin: 50px 0 0 0;
   background-color: #940202;
-  color: #f5f5f5;
-  font-family: 'Europeext Regular';
-  font-size: 16px;
-  padding: 10px;
+  padding: 0;
   /* border-radius: 10px; */
   border: none;
   box-shadow: 0px -5px 5px #616161;
   cursor: pointer;
   transition: all 0.5s ease 0s;
-  width: 220px;
-  height: 40px;
+  width: 15vw;
+  height: 3vw;
   transform: skewX(-20deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-call__button-submit span {
+  color: #f5f5f5;
+  font-family: 'Europeext Regular';
+  font-size: 1vw;
+  margin: 0.5vw 1vw;
+  transform: skewX(20deg);
 }
 
 .popup-call__button-submit:hover {
   background-color: #c80101;
   color: #fff;
   transform: translateY(-7px) skewX(-20deg);
-  box-shadow: 0px 0px 10px #616161;
+  box-shadow: 0px 0px 5px #616161;
 }
