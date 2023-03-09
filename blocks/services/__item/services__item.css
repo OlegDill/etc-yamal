@@ -6,10 +6,30 @@
   color: #940202d1;
   filter: drop-shadow(5px 5px 5px #616161);
   transition: 1s;
+  width: 80%;
 }
 
 .services__card:hover .services__item {
   z-index: 9;
   color: #ffffff;
   font-family: 'Europeext Bold';
+}
+
+.services__item::before {
+  background: black;
+  content: '';
+  width: 200%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: 1s;
+}
+
+.services__card:hover .services__item::before {
+  z-index: 1;
+  opacity: .5;
 }
