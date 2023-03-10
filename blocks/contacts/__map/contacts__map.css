@@ -1,23 +1,11 @@
 .contacts__map {
-  /* max-width: -webkit-fill-available; */
   border: 0;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 5%;
   width: 50%;
   overflow:hidden;
-  /* height: 100%; */
   height: 20vw;
 }
 
 .map-widget-content-title-view__title {
   color: #940202;
 }
-
-/* style=" position:relative;overflow:hidden;" */
-
-/* .ymaps-layers-pane {
-	filter: brightness(50%);
-	-ms-filter: brightness(50%);
-	-webkit-filter: brightness(50%);
-	-moz-filter: brightness(50%);   
-	-o-filter: brightness(50%);  
-} */

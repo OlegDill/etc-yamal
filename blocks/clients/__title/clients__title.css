@@ -2,13 +2,11 @@
   color: black;
   font-family: 'Europeext Bold';
   font-size: 3vw;
-  margin: 0 0 20px 0;
   border-bottom: solid;
-  border-width: 3px;
+  border-width: 0.25vw;
   border-color: #940202;
   max-width: max-content;
   padding-right: 2%;
-  /* filter: drop-shadow(3px 3px 3px #616161); */
-  margin: 0 auto 20px auto;
+  margin: 0 auto 3vw auto;
   padding-left: 2%;
 }

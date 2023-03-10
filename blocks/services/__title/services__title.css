@@ -2,9 +2,9 @@
   color: black;
   font-family: 'Europeext Bold';
   font-size: 3vw;
-  margin: 0 0 20px 0;
+  margin: 0 auto 3vw auto;
   border-bottom: solid;
-  border-width: 3px;
+  border-width: 0.25vw;
   border-color: #940202;
   max-width: max-content;
   padding-left: 2%;

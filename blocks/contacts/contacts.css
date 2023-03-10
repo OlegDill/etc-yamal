@@ -6,6 +6,7 @@
 
 @media (max-width: 1280px) {
   .contacts {
+    padding-top: 70px;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 70px;
@@ -14,6 +15,7 @@
 
 @media (max-width: 1024px) {
   .contacts {
+    padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
@@ -22,6 +24,7 @@
 
 @media (max-width: 768px) {
   .contacts {
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
@@ -30,6 +33,7 @@
 
 @media (max-width: 320px) {
   .contacts {
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
