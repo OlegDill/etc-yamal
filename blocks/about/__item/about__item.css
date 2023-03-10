@@ -12,7 +12,11 @@
 
 .about__item_subtitle {
   font-family: 'Europeext Bold';
-  font-size: 18px;
   color: black;
   font-size: 1.3vw;
+}
+
+
+.about__item_subtitle span {
+  font-size: 0.8vw;
 }
