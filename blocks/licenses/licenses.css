@@ -1,32 +1,40 @@
 .licenses {
   background: white;
-  padding: 50px 200px 100px 200px;
+  padding: 100px 200px;
 }
 
 @media (max-width: 1280px) {
   .licenses {
+    padding-top: 70px;
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 70px;
   }
 }
 
 @media (max-width: 1024px) {
   .licenses {
+    padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;
   }
 }
 
 @media (max-width: 768px) {
   .licenses {
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
 }
 
 @media (max-width: 320px) {
   .licenses {
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
   }
 }

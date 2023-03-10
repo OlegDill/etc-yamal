@@ -1,33 +1,41 @@
 .reviews {
-  padding: 50px 0 100px 0;
-  margin: 0 200px 0 200px;
+  padding: 100px 0;
+  margin: 0 200px;
   background: white;
 }
 
 @media (max-width: 1280px) {
   .reviews {
+    padding-top: 70px;
     margin-left: 150px;
     margin-right: 150px;
+    padding-bottom: 70px;
   }
 }
 
 @media (max-width: 1024px) {
   .reviews {
+    padding-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    padding-bottom: 50px;
   }
 }
 
 @media (max-width: 768px) {
   .reviews {
+    padding-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
+    padding-bottom: 30px;
   }
 }
 
 @media (max-width: 320px) {
   .reviews {
+    padding-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 20px;
   }
 }
