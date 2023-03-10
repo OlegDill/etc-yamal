@@ -2,8 +2,8 @@
   width: 6vw;
   height: 6vw;
   margin: 0;
-  left: 60px;
-  top: 30px;
+  left: 5%;
+  top: 50%;
   position: absolute;
   filter: drop-shadow(3px 3px 3px #616161);
   z-index: 3;
