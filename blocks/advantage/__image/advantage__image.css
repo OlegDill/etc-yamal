@@ -1,15 +1,12 @@
 .advantage__image {
   position: absolute;
-  top: -3vw;
-  filter: drop-shadow(0px -10px 5px #616161);
-  width: 70px;
-  height: 70px;
+  top: -3.5vw;
+  filter: drop-shadow(0px -0.5vw 0.5vw #616161);
   transition: .5s;
   background-repeat: no-repeat;
   background-color: white;
   border-radius: 50%;
   background-position: center;
-  /* transform: skewX(20deg); */
   width: 5vw;
   height: 5vw;
 }

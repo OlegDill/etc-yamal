@@ -14,22 +14,22 @@
 .advantage::before {
   background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0) 100%);
   content: '';
-  width: 100px;
-  height: 100%;
+  width: 10%;
+  height: 40%;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 25%;
   z-index: 1;
 }
 
 .advantage::after {
   background: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 100%);
   content: '';
-  width: 100px;
-  height: 100%;
+  width: 10%;
+  height: 40%;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 25%;
   z-index: 1;
 }
 
@@ -37,6 +37,7 @@
   .advantage {
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 70px;
   }
 }
 
@@ -44,19 +45,22 @@
   .advantage {
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;
   }
 }
 
 @media (max-width: 768px) {
   .advantage {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
   }
 }
 
 @media (max-width: 320px) {
   .advantage {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
   }
 }
