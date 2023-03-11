@@ -3,7 +3,7 @@
   color: white;
   margin: 0 auto;
   padding: 0;
-  font-size: 18px;
+  /* font-size: 18px; */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
