@@ -1,8 +1,16 @@
 .advantage__columns {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 2vw;
   margin: 5vw 0 0 0;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .advantage__columns {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    gap: 3vw;
+  }
 }

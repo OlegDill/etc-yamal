@@ -64,3 +64,13 @@
     padding-bottom: 20px;
   }
 }
+
+
+
+@media (max-width: 768px) {
+  .advantage::before, .advantage::after {
+    width: 10%;
+    height: 15%;
+    top: 90%;
+  }
+}
