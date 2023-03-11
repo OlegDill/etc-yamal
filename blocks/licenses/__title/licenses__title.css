@@ -10,3 +10,9 @@
   padding-right: 2%;
   margin: 0 auto 3vw auto;
 }
+
+@media (max-width: 768px) {
+  .licenses__title {
+    font-size: 5vw;
+  }
+}

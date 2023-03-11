@@ -10,3 +10,9 @@
   padding-left: 2%;
   padding-right: 2%;
 }
+
+@media (max-width: 768px) {
+  .services__title {
+    font-size: 5vw;
+  }
+}
