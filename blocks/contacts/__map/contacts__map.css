@@ -9,3 +9,11 @@
 .map-widget-content-title-view__title {
   color: #940202;
 }
+
+@media (max-width: 768px) {
+  .contacts__map {
+    width: 100%;
+    margin-left: 0;
+    height: 50vw;
+  }
+}

@@ -9,3 +9,9 @@
 .footer__about:last-child {
   margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+  .footer__about {
+    font-size: 0.8vw;
+  }
+}
