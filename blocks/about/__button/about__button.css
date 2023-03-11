@@ -60,3 +60,13 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .about__button {
+    bottom: 15%;
+    left: 33%;
+    width: 30vw;
+    height: 6vw;
+    font-size: 2vw;
+  }
+}

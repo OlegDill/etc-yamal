@@ -32,3 +32,11 @@
   right: 0;
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .about {
+    padding-top: 80%;
+    background-size: 160%;
+    background-position: center;
+  }
+}

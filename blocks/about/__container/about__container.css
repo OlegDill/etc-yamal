@@ -12,12 +12,15 @@
   width: 70vw;
   justify-items: center;
   align-items: start;
+  height: max-content;
 }
 
 @media (max-width: 768px) {
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 30vw;
+    width: 70%;
+    padding-top: 30%;
+    row-gap: 2vw;
   }
 }

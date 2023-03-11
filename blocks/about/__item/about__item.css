@@ -1,11 +1,9 @@
 .about__item {
   margin: 0;
-
 }
 
 .about__item_title {
   font-family: 'Europeext Regular';
-  /* font-size: 16px; */
   color: #940202;
   font-size: 1.2vw;
 }
@@ -19,4 +17,22 @@
 
 .about__item_subtitle span {
   font-size: 0.8vw;
+}
+
+@media (max-width: 768px) {
+  .about__item_title {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__item_subtitle {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__item_subtitle span{
+    font-size: 1.5vw;
+  }
 }

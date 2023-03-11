@@ -6,3 +6,9 @@
   transform: skewX(-20deg);
   text-shadow: 0px 0px 1.5vw red;
 }
+
+@media (max-width: 768px) {
+  .about__subtitle {
+    font-size: 3vw;
+  }
+}
