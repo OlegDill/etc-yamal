@@ -51,8 +51,8 @@
 
 @media (max-width: 768px) {
   .advantage {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 30px;
   }
 }
@@ -64,8 +64,6 @@
     padding-bottom: 20px;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .advantage::before, .advantage::after {
