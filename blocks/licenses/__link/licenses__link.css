@@ -1,6 +1,5 @@
 .licenses__link {
   width: 20vw;
-  /* height: 500px; */
   transition: .5s;
   cursor: pointer;
   position: relative;
@@ -26,7 +25,6 @@
   left: 50%;
   z-index: -1;
   transition: 1s;
-  /* border-radius: 50%; */
   box-shadow: 0 0 30px;
 }
 
@@ -36,4 +34,10 @@
   height: 200%;
   top: -50%;
   left: -50%;
+}
+
+@media (max-width: 768px) {
+  .licenses__link {
+    width: 30vw;
+  }
 }
