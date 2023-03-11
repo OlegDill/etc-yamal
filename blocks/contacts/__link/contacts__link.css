@@ -11,6 +11,7 @@
 
 @media (max-width: 768px) {
   .contacts__link {
-    font-size: 2vw;
+    font-size: 3vw;
+    text-align: center;
   }
 }

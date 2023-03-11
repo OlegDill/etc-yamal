@@ -11,6 +11,6 @@
 
 @media (max-width: 768px) {
   .footer__contact-item {
-    margin-bottom: 0.5vw;
+    font-size: 2vw;
   }
 }

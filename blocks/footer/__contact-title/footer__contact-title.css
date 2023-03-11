@@ -5,3 +5,9 @@
   font-size: 1.2vw;
   margin-bottom: 1vw;
 }
+
+@media (max-width: 768px) {
+  .footer__contact-title {
+    font-size: 2.2vw;
+  }
+}
