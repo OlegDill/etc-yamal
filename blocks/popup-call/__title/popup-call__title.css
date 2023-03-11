@@ -4,3 +4,10 @@
   color: #940202;
   margin: 0 auto 3vw auto;
 }
+
+@media (max-width: 768px) {
+  .popup-call__title {
+    text-align: center;
+    font-size: 3vw;
+  }
+}

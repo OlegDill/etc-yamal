@@ -3,14 +3,13 @@
   height: 100%;
   margin-left: -50px;
   padding: 0 70px;
-  font-size: 18px;
   background-color: transparent;
   -webkit-transform: skewX(20deg);
   -ms-transform: skewX(20deg);
   transform: skewX(20deg);
   color: rgba(0, 0, 0, 0.7);
   font-family: 'Europeext Regular';
-  font-size: 16px;
+  font-size: 2vw;
   width: 90%;
   outline:none;
 }

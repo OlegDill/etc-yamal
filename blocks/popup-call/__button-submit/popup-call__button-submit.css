@@ -1,10 +1,9 @@
 .popup-call__button-submit {
-  margin: 50px 0 0 0;
+  margin: 0;
   background-color: #940202;
   padding: 0;
-  /* border-radius: 10px; */
   border: none;
-  box-shadow: 0px -5px 5px #616161;
+  box-shadow: 0px -1vw 1vw #616161;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   width: 15vw;
@@ -28,4 +27,17 @@
   color: #fff;
   transform: translateY(-7px) skewX(-20deg);
   box-shadow: 0px 0px 5px #616161;
+}
+
+@media (max-width: 768px) {
+  .popup-call__button-submit {
+    width: 30vw;
+    height: 6vw;
+    }
+}
+
+@media (max-width: 768px) {
+  .popup-call__button-submit span {
+    font-size: 2vw;
+  }
 }

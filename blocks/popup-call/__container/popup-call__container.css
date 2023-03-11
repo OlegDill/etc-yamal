@@ -1,8 +1,10 @@
 .popup-call__container {
   margin: 0;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   position: relative;
   background: white;
-  /* border-radius: 10px; */
-  box-shadow: 0px 0px 15px white;
+  box-shadow: 0px 0px 2vw white;
+  background-image: url(../../../images/111test.png);
+  background-size: 50% auto;
+  background-position: bottom;
+  background-repeat: repeat-x;
 }
