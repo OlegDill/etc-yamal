@@ -79,3 +79,9 @@
     background-image: linear-gradient(to right, red, 100%, #752323);
   }
 }
+
+@media (max-width: 768px) {
+  .advantage__caption {
+    font-size: 4vw;
+  }
+}

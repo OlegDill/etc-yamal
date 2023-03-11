@@ -28,3 +28,18 @@
   transform: translateY(-1vw) skewX(-20deg);
   box-shadow: 0px 0px 2vw #616161;
 }
+
+@media (max-width: 768px) {
+  .advantage__button-contact {
+    width: 30vw;
+    height: 6vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    }
+}
+
+@media (max-width: 768px) {
+  .advantage__button-contact span {
+    font-size: 2vw;
+  }
+}

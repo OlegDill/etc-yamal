@@ -15,6 +15,7 @@
   transition: .5s;
   cursor: pointer;
   aspect-ratio: 1/1;
+  width: 40vw;
 }
 
 .services__card:hover {

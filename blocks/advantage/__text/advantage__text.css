@@ -22,3 +22,9 @@
 .advantage__text_contacts:hover {
   opacity: .5;
 }
+
+@media (max-width: 768px) {
+  .advantage__text {
+    font-size: 3vw;
+  }
+}

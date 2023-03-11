@@ -5,3 +5,9 @@
   margin: 0 0 1vw 0;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .advantage__title {
+    font-size: 2vw;
+  }
+}

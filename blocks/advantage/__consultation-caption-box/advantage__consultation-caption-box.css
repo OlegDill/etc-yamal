@@ -2,3 +2,10 @@
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width: 768px) {
+  .advantage__consultation-caption-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}

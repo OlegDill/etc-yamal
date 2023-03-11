@@ -16,3 +16,10 @@
     transform: translate(-999999px);
   }
 }
+
+@media (max-width: 768px) {
+  .clients__container {
+    height: 30vw;
+    background-size: 160vw;
+  }
+}
