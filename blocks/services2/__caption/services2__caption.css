@@ -15,7 +15,11 @@
   text-align: center;
   left: 0;
   right: 0;
-  /* margin-left: 30px;
-  margin-right: 30px; */
   opacity: .5;
+}
+
+@media (max-width: 768px) {
+  .services2__caption {
+    font-size: 2vw;
+  }
 }
