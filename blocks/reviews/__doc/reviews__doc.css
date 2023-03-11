@@ -1,5 +1,10 @@
 .reviews__doc {
   width: 25vw;
-  /* height: 550px; */
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .reviews__doc {
+    width: 45vw;
+  }
 }
