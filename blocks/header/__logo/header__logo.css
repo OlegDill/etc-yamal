@@ -8,3 +8,11 @@
   filter: drop-shadow(3px 3px 3px #616161);
   z-index: 3;
 }
+
+@media (max-width: 768px) {
+  .header__logo {
+    width: 7vw;
+    height: 7vw;
+    top: 30%;
+    }
+}
