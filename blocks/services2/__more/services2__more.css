@@ -19,3 +19,9 @@
   z-index: 1;
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .services2__more {
+    font-size: 4vw;
+  }
+}
