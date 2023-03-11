@@ -11,12 +11,13 @@
   transition: all 0.5s ease 0s;
   width: 15vw;
   text-transform: uppercase;
-  position: absolute;
   z-index: 1;
-  bottom: 20%;
-  left: 10%;
   transform: skewX(-20deg);
   overflow: hidden;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .about__button:hover {
@@ -63,10 +64,12 @@
 
 @media (max-width: 768px) {
   .about__button {
-    bottom: 15%;
-    left: 33%;
     width: 30vw;
     height: 6vw;
     font-size: 2vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }

@@ -3,11 +3,11 @@
   z-index: 1;
   top: 0;
   bottom: 0;
-  opacity: .8;
+  /* opacity: .8; */
   display: grid;
   column-gap: 3vw;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows: repeat(2, 1fr);
   padding-top: 20%;
   width: 70vw;
   justify-items: center;
@@ -18,7 +18,7 @@
 @media (max-width: 768px) {
   .about__container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     width: 70%;
     padding-top: 30%;
     row-gap: 2vw;
