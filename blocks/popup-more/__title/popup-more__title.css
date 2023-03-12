@@ -3,10 +3,11 @@
   font-size: 2vw;
   color: #940202;
   margin: 0 auto 2vw auto;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .popup-more__title {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }

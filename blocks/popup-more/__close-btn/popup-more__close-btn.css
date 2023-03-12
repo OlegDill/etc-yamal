@@ -17,7 +17,7 @@
   transform: rotate(180deg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .popup-more__close-btn {
     width: 20px;
     height: 20px;

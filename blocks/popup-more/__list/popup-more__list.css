@@ -1,3 +1,11 @@
 .popup-more__list {
   margin: 0;
+  overflow-y: hidden;
+  max-height: 55vw;
+}
+
+@media (max-width: 768px) {
+  .popup-more__list {
+    overflow-y: scroll;
+  }
 }
