@@ -11,6 +11,28 @@
   background-repeat: repeat-x;
 }
 
+.popup-more__container::before {
+  background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  width: 10%;
+  height: 15%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.popup-more__container::after {
+  background: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  width: 10%;
+  height: 15%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
 @media (max-width: 768px) {
   .popup-more__container {
     height: 80vw;
