@@ -42,10 +42,6 @@ $(document).ready(function () {
 //   }
 // }
 
-
-
-
-
 let elements = document.querySelectorAll('.services__card');
 let aboutList = document.querySelectorAll('.about__caption-list');
 let about = document.querySelector('.about__button');
@@ -71,7 +67,6 @@ aboutList.forEach((item) => {
 about.addEventListener('click', open);
 
 handleEscOrOverlayClick = (event) => {
-  console.log('handleEscOrOverlayClick');
   if (event.key === 'Escape' || event.target === event.currentTarget) {
     close();
   }
@@ -86,11 +81,9 @@ function close() {
 }
 
 function open(evt) {
-  console.log(evt.currentTarget.classList.value);
   document.querySelector('.body').classList.toggle('body_overflow');
   document.addEventListener('keydown', handleEscOrOverlayClick);
   if (evt.currentTarget.classList.value === 'advantage__consultation-button') {
-    console.log('ppp');
     document.querySelector('.popup-call').addEventListener('click', handleEscOrOverlayClick);
     document.querySelector('.popup-call').classList.add('popup_opened');
     document.querySelector('.popup__close').addEventListener('click', close);
