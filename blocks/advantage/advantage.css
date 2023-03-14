@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background: white;
-  background-image: url(../../images/111test.png);
+  background-image: url(../../images/pattern.png);
   background-size: 50% auto;
   background-position: bottom;
   background-repeat: repeat-x;
@@ -18,7 +18,7 @@
   height: 40%;
   position: absolute;
   left: 0;
-  top: 25%;
+  top: 75%;
   z-index: 1;
 }
 
@@ -29,7 +29,7 @@
   height: 40%;
   position: absolute;
   right: 0;
-  top: 25%;
+  top: 75%;
   z-index: 1;
 }
 

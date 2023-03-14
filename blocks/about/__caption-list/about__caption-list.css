@@ -14,4 +14,5 @@
 .about__caption-list:hover {
   transform: skewX(-20deg) scale(1.1);
   box-shadow: 0 0 15px white;
+  opacity: 1;
 }

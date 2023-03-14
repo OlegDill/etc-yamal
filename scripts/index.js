@@ -60,7 +60,6 @@ let buttonCall = document.querySelector('.advantage__consultation-button');
 
 buttonCall.addEventListener('click', open);
 
-
 elements.forEach((item) => {
   item.addEventListener('click', open);
 });
@@ -83,7 +82,6 @@ function close() {
   document.querySelector('.body').classList.toggle('body_overflow');
   document.removeEventListener('keydown', handleEscOrOverlayClick);
   document.querySelector('.popup-more__list').classList.remove('popup-more__list-about');
-  // document.querySelector('.popup-more__item').classList.remove('popup-more__item-about');
   document.querySelector('.popup-more__form').innerHTML = '';
 }
 
@@ -96,7 +94,6 @@ function open(evt) {
     document.querySelector('.popup-call').addEventListener('click', handleEscOrOverlayClick);
     document.querySelector('.popup-call').classList.add('popup_opened');
     document.querySelector('.popup__close').addEventListener('click', close);
-
   } else {
     document.querySelector('.popup-more').classList.add('popup_opened');
     document.querySelector('.popup-more').addEventListener('click', handleEscOrOverlayClick);
@@ -115,7 +112,6 @@ function open(evt) {
     } else if (evt.currentTarget.classList.value === 'about__button' || 'about__caption-list') {
       document.querySelector('.popup-more__form').appendChild(templateAbout.content.cloneNode(true));
       document.querySelector('.popup-more__list').classList.add('popup-more__list-about');
-      // document.querySelector('.popup-more__item').classList.add('popup-more__item-about');
     }
     document.querySelector('.popup__close').addEventListener('click', close);
   }
