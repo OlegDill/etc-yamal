@@ -1,8 +1,9 @@
 /* vendor */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url(../vendor/owl/owl.carousel.min.css);
-@import url(../vendor/owl/owl.theme.default.min.css);
+/* owl */
+@import url(../blocks/owl/owl.carousel.min.css);
+@import url(../blocks/owl/owl.theme.default.min.css);
 /* body */
 @import url(../blocks/body/body.css);
 @import url(../blocks/body/_overflow/body_overflow.css);
