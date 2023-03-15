@@ -1,10 +1,10 @@
 .popup-call__button-submit {
   margin: 0;
-  background-color: #940202;
+  background-color: #aeaeae;
   padding: 0;
   border: none;
   box-shadow: 0px -1vw 1vw #616161;
-  cursor: pointer;
+  cursor: default;
   transition: all 0.5s ease 0s;
   width: 15vw;
   height: 3vw;
@@ -12,6 +12,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.popup-call__button-submit_active {
+  cursor: pointer;
+  background-color: #940202;
 }
 
 .popup-call__button-submit span {
@@ -22,7 +27,7 @@
   transform: skewX(20deg);
 }
 
-.popup-call__button-submit:hover {
+.popup-call__button-submit_active:hover {
   background-color: #c80101;
   color: #fff;
   transform: translateY(-7px) skewX(-20deg);

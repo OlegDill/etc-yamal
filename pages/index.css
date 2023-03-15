@@ -116,3 +116,7 @@
 @import url(../blocks/popup-call/__span-name/popup-call__span-name.css);
 @import url(../blocks/popup-call/__span-number/popup-call__span-number.css);
 @import url(../blocks/popup-call/__title/popup-call__title.css);
+@import url(../blocks/popup-call/__box-checkbox/popup-call__box-checkbox.css);
+@import url(../blocks/popup-call/__checkbox-caption/popup-call__checkbox-caption.css);
+@import url(../blocks/popup-call/__checkbox/popup-call__checkbox.css);
+@import url(../blocks/popup-call/__input/popup-call__input.css);

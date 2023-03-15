@@ -353,17 +353,22 @@
         <h3 class="popup-call__title">Получить бесплатную консультацию</h3>
         <fieldset class="popup-call__fieldset">
           <div cid="phone2" class="popup-call__box-number">
-            <input class="popup-call__input-number" type="text" placeholder="Имя*" value="" name="NAME">
+            <input class="popup-call__input popup-call__input_name _req" type="text" placeholder="Имя*" value="" name="NAME">
             <span class="popup-call__span-error">Заполните обязательное поле</span>
           </div>
         </fieldset>
         <fieldset class="popup-call__fieldset">
           <div cid="phone2" class="popup-call__box-number">
-            <input class="popup-call__input-number" type="tel" placeholder="Телефон*" value="" name="PHONE">
+            <input class="popup-call__input popup-call__input_number _req" type="tel" placeholder="Телефон*" value="" name="PHONE" data-phone-pattern>
             <span class="popup-call__span-error">Заполните обязательное поле</span>
           </div>
         </fieldset>
-        <button type="submit" class="popup-call__button-submit"><span>Отправить заявку</span></button>
+        <div class="popup-call__box-checkbox">
+          <input class="popup-call__checkbox _req" type="checkbox" checked>
+          <label class="popup-call__checkbox-caption">Я даю согласие на обработку персональных данных в соответствии с <a
+              href="#" target="_blank">Условиями</a>*</label>
+        </div>
+        <button type="submit" class="popup-call__button-submit" disabled><span>Отправить заявку</span></button>
         <button type="button" class="popup__close popup-call__button-close"></button>
       </form>
     </div>
@@ -491,6 +496,9 @@
   <script src="./scripts/index.js"></script>
   <script src="./scripts/owl.carousel.min.js"></script>
   <script src="./scripts/map.js"></script>
+  <script src="./scripts/send.js"></script>
+  <script src="./scripts/inputNumber.js"></script>
+  <script src="./scripts/inputName.js"></script>
 </body>
 
 </html>

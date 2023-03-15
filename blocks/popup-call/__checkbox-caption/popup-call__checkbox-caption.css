@@ -1,0 +1,10 @@
+.popup-call__checkbox-caption {
+  color: black;
+  font-family: 'Montserrat Medium';
+  font-size: 0.7vw;
+  margin: 0;
+}
+
+.popup-call__checkbox-caption a {
+  color: #940202;
+}

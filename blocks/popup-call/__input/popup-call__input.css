@@ -1,4 +1,4 @@
-.popup-call__input-number {
+.popup-call__input {
   border: none;
   height: 100%;
   margin-left: -50px;
@@ -9,7 +9,7 @@
   transform: skewX(20deg);
   color: rgba(0, 0, 0, 0.7);
   font-family: 'Europeext Regular';
-  font-size: 2vw;
+  font-size: 1vw;
   width: 90%;
   outline:none;
 }
