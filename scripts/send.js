@@ -1,13 +1,22 @@
-'use strict'
-let buttonSubmit = document.querySelector('.popup-call__button-submit');
-
+// 'use strict'
 document.addEventListener('DOMContentLoaded', function () {
   let form = document.querySelector('.popup-call__form');
+  let buttonSubmit = document.querySelector('.popup-call__button-submit');
+  let popupInputNumber = document.querySelector('.popup-call__input_number');
+  let popupInputName = document.querySelector('.popup-call__input_name');
+  let popupCheckbox = document.querySelector('.popup-call__checkbox');
+
   form.addEventListener('submit', formSend);
+  popupInputName.addEventListener('input', formValidate);
+  popupInputNumber.addEventListener('input', formValidate);
+  popupCheckbox.addEventListener('change', formValidate);
+
 
   async function formSend(e) {
     e.preventDefault();
-    let error = formValidate(form);
+    let error = formValidate();
+    console.log('що');
+
 
     let formData = new FormData(form);
 
@@ -32,23 +41,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  function formValidate(form) {
-    let error = 0;
-    let formReq = document.querySelector('._req');
-
-    for (let index = 0; ondex < formReq.length; index++) {
-      const input = formReq[index];
-      formRemoveError(input);
-
-      if (input.classlist.contains());
+  function formValidate() {
+    console.log(popupInputNumber.value.length);
+    if ((popupInputName.value.length >= 2) && (popupCheckbox.checked === true) && (popupInputNumber.value.length >= 17)) {
+      formRemoveError();
+    } else {
+      formAddError();
     }
   }
+
   function formAddError() {
-    buttonSubmit.classlist.remove('popup-call__button-submit_active');
+    buttonSubmit.classList.remove('popup-call__button-submit_active');
     buttonSubmit.setAttribute('disabled');
   }
+
   function formRemoveError() {
-    buttonSubmit.classlist.add('popup-call__button-submit_active');
+    buttonSubmit.classList.add('popup-call__button-submit_active');
     buttonSubmit.removeAttribute('disabled');
   }
 });
