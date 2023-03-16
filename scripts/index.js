@@ -53,6 +53,7 @@ let templateMoreFourth = document.querySelector('.template__more-fourth');
 let templateMoreFifth = document.querySelector('.template__more-fifth');
 let templateMoreSixth = document.querySelector('.template__more-sixth');
 let buttonCall = document.querySelector('.advantage__consultation-button');
+let formCall = document.querySelector('.popup-call__form');
 
 buttonCall.addEventListener('click', open);
 
@@ -73,6 +74,7 @@ handleEscOrOverlayClick = (event) => {
 }
 
 function close() {
+  formCall.reset();
   document.querySelector('.popup_opened').classList.remove('popup_opened');
   document.querySelector('.body').classList.toggle('body_overflow');
   document.removeEventListener('keydown', handleEscOrOverlayClick);

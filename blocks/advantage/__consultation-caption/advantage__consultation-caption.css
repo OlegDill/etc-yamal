@@ -18,6 +18,7 @@
   0%, 20%, 60%, 100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    
   }
 
   40% {
@@ -28,6 +29,7 @@
   80% {
     -webkit-transform: translateY(-1vw);
     transform: translateY(-1vw);
+    
   }
 }
 

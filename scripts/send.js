@@ -5,24 +5,21 @@ document.addEventListener('DOMContentLoaded', function () {
   let popupInputNumber = document.querySelector('.popup-call__input_number');
   let popupInputName = document.querySelector('.popup-call__input_name');
   let popupCheckbox = document.querySelector('.popup-call__checkbox');
+  let formError = 1;
 
   form.addEventListener('submit', formSend);
   popupInputName.addEventListener('input', formValidate);
   popupInputNumber.addEventListener('input', formValidate);
   popupCheckbox.addEventListener('change', formValidate);
 
-
   async function formSend(e) {
     e.preventDefault();
     let error = formValidate();
-    console.log('що');
-
-
     let formData = new FormData(form);
 
-    if (error === 0) {
+    if (formError === 0) {
       form.classList.add('popup-call__form_sending');
-      let response = await fetch('sendmail.php', {
+      let response = await fetch('../sendMail.php', {
         method: 'POST',
         body: formData
       });
@@ -42,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function formValidate() {
-    console.log(popupInputNumber.value.length);
     if ((popupInputName.value.length >= 2) && (popupCheckbox.checked === true) && (popupInputNumber.value.length >= 17)) {
       formRemoveError();
     } else {
@@ -53,10 +49,12 @@ document.addEventListener('DOMContentLoaded', function () {
   function formAddError() {
     buttonSubmit.classList.remove('popup-call__button-submit_active');
     buttonSubmit.setAttribute('disabled');
+    formError++;
   }
 
   function formRemoveError() {
     buttonSubmit.classList.add('popup-call__button-submit_active');
     buttonSubmit.removeAttribute('disabled');
+    formError = 0;
   }
 });

@@ -3,7 +3,7 @@
   background-color: #940202;
   padding: 0;
   border: none;
-  box-shadow: 0px -1vw 1vw #616161;
+  box-shadow: 0px -0.3vw 0.5vw #616161;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   width: 15vw;
@@ -25,8 +25,8 @@
 .advantage__button-contact:hover {
   background-color: #c80101;
   color: #fff;
-  transform: translateY(-1vw) skewX(-20deg);
-  box-shadow: 0px 0px 2vw #616161;
+  box-shadow: 0px 0px 1vw black;
+  transform: translateY(-0.3vw) skewX(-20deg);
 }
 
 @media (max-width: 768px) {
