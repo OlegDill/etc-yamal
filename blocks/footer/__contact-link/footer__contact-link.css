@@ -8,5 +8,5 @@
 
 .footer__contact-item:hover .footer__contact-link {
   color: #ffffff;
-  filter: drop-shadow(3px 3px 3px #616161);
+  filter: drop-shadow(0 0 0.1vw white);
 }

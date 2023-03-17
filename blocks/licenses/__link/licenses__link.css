@@ -4,7 +4,7 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  box-shadow: 0px 0px 10px;
+  box-shadow: 0px 0px 0.5vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
 
 .licenses__link:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 20px;
+  box-shadow: 0px 0px 1vw;
 }
 
 .licenses__link::before {
@@ -25,7 +25,7 @@
   left: 50%;
   z-index: -1;
   transition: 1s;
-  box-shadow: 0 0 30px;
+  box-shadow: 0 0 3vw;
 }
 
 .licenses__link:hover::before {
