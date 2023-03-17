@@ -13,6 +13,6 @@
 
 .about__caption-list:hover {
   transform: skewX(-20deg) scale(1.1);
-  box-shadow: 0 0 15px white;
+  box-shadow: 0 0 0.5vw white;
   opacity: 1;
 }
