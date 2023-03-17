@@ -1,3 +1,5 @@
+// import { formValidate } from "./formValidation.js";
+
 // 'use strict'
 document.addEventListener('DOMContentLoaded', function () {
   let form = document.querySelector('.popup-call__form');
@@ -14,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   async function formSend(e) {
     e.preventDefault();
-    let error = formValidate();
+    // let error = formValidate();
     let formData = new FormData(form);
 
     if (formError === 0) {
@@ -37,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       alert('Заполните обязательные поля')
     }
   }
-
+  
   function formValidate() {
     if ((popupInputName.value.length >= 2) && (popupCheckbox.checked === true) && (popupInputNumber.value.length >= 17)) {
       formRemoveError();
@@ -48,13 +50,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function formAddError() {
     buttonSubmit.classList.remove('popup-call__button-submit_active');
-    buttonSubmit.setAttribute('disabled');
-    formError++;
+    if (buttonSubmit.hasAttributes('disabled') === false) {
+      buttonSubmit.setAttribute('disabled');
+    }
   }
 
   function formRemoveError() {
     buttonSubmit.classList.add('popup-call__button-submit_active');
-    buttonSubmit.removeAttribute('disabled');
-    formError = 0;
+    if (buttonSubmit.hasAttributes('disabled') === true) {
+      buttonSubmit.removeAttribute('disabled');
+    }
   }
 });
