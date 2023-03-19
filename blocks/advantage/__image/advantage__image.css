@@ -9,6 +9,7 @@
   background-position: center;
   width: 5vw;
   height: 5vw;
+  z-index: 2;
 }
 
 .advantage__image_one {
