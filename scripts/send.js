@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       alert('Заполните обязательные поля')
     }
   }
-  
+
   function formValidate() {
     if ((popupInputName.value.length >= 2) && (popupCheckbox.checked === true) && (popupInputNumber.value.length >= 17)) {
       formRemoveError();
