@@ -1,22 +1,13 @@
-// import { formValidate } from "./formValidation.js";
+import { formValidate } from "./formValidation.js";
+export let formError = 1;
 
-// 'use strict'
 document.addEventListener('DOMContentLoaded', function () {
   let form = document.querySelector('.popup-call__form');
-  let buttonSubmit = document.querySelector('.popup-call__button-submit');
-  let popupInputNumber = document.querySelector('.popup-call__input_number');
-  let popupInputName = document.querySelector('.popup-call__input_name');
-  let popupCheckbox = document.querySelector('.popup-call__checkbox');
-  let formError = 1;
 
   form.addEventListener('submit', formSend);
-  popupInputName.addEventListener('input', formValidate);
-  popupInputNumber.addEventListener('input', formValidate);
-  popupCheckbox.addEventListener('change', formValidate);
 
   async function formSend(e) {
     e.preventDefault();
-    // let error = formValidate();
     let formData = new FormData(form);
 
     if (formError === 0) {
@@ -37,28 +28,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     } else {
       alert('Заполните обязательные поля')
-    }
-  }
+      console.log(formError)
 
-  function formValidate() {
-    if ((popupInputName.value.length >= 2) && (popupCheckbox.checked === true) && (popupInputNumber.value.length >= 17)) {
-      formRemoveError();
-    } else {
-      formAddError();
     }
   }
-
-  function formAddError() {
-    buttonSubmit.classList.remove('popup-call__button-submit_active');
-    if (buttonSubmit.hasAttributes('disabled') === false) {
-      buttonSubmit.setAttribute('disabled');
-    }
-  }
-
-  function formRemoveError() {
-    buttonSubmit.classList.add('popup-call__button-submit_active');
-    if (buttonSubmit.hasAttributes('disabled') === true) {
-      buttonSubmit.removeAttribute('disabled');
-    }
-  }
+  formValidate();
 });
