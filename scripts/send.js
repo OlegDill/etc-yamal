@@ -28,8 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     } else {
       alert('Заполните обязательные поля')
-      console.log(formError)
-
     }
   }
   formValidate();

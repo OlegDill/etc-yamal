@@ -1,0 +1,17 @@
+.gallery__subtitle {
+  position: absolute;
+  font-family: 'Europeext Regular';
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+  bottom: 5%;
+  z-index: 2;
+  transition: .5s;
+  margin: 0 20% 0 5%;
+}
+
+@media (max-width: 768px) {
+  .gallery__subtitle {
+    font-size: 1.7vw;
+    margin-right: 15%;
+  }
+}

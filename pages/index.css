@@ -72,6 +72,13 @@
 @import url(../blocks/licenses/__title/licenses__title.css);
 @import url(../blocks/licenses/__container/licenses__container.css);
 @import url(../blocks/licenses/__caption/licenses__caption.css);
+/* gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__card/gallery__card.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/gallery/__photo/gallery__photo.css);
+@import url(../blocks/gallery/__subtitle/gallery__subtitle.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
 /* conacts */
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__item/contacts__item.css);

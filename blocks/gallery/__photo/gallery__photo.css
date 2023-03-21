@@ -1,0 +1,58 @@
+.gallery__photo {
+  width: 100%;
+  background: center;
+  background-size: cover;
+  padding-top: 70%;
+}
+
+.gallery__card:hover .gallery__photo {
+  /* filter: blur(3px); */
+}
+
+.gallery__photo_first {
+  background-image: url('../../../images/gallery-1.jpg');
+}
+
+.gallery__photo_second {
+  background-image: url('../../../images/gallery-2.jpg');
+}
+
+.gallery__photo_third {
+  background-image: url('../../../images/gallery-3.jpg');
+}
+
+.gallery__photo_fourth {
+  background-image: url('../../../images/gallery-4.png');
+}
+
+.gallery__photo_fifth {
+  background-image: url('../../../images/gallery-5.jpg');
+}
+
+.gallery__photo_sixth {
+  background-image: url('../../../images/gallery-6.jpg');
+}
+
+.gallery__photo_seventh {
+  background-image: url('../../../images/gallery-7.png.jpeg');
+}
+
+.gallery__photo_eigth {
+  background-image: url('../../../images/gallery-8.png');
+}
+
+.gallery__photo_ninth {
+  background-image: url('../../../images/gallery-9.jpg');
+}
+
+.gallery__photo_tenth {
+  background-image: url('../../../images/gallery-10.jpg');
+}
+
+.gallery__photo_eleventh {
+  background-image: url('../../../images/gallery-11.jpg');
+}
+
+.gallery__photo_twelfth {
+  background-image: url('../../../images/gallery-12.jpg');
+}

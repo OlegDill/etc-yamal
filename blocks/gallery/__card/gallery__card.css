@@ -1,12 +1,12 @@
-.services2__card {
+.gallery__card {
   position: relative;
   overflow: hidden;
   transition: .5s;
-  cursor: pointer;
-  /* box-shadow: 0 1vw 1vw #616161; */
+  cursor: zoom-in;
+  /* box-shadow: 0 0.5vw 0.5vw #616161; */
 }
 
-.services2__card::before {
+.gallery__card::before {
   content: '';
   position: absolute;
   background-color: rgba(34, 36, 41, 0.75);
@@ -16,15 +16,15 @@
   clip-path: polygon(0 0px, 0% 100%, 500% 40%);
   z-index: 1;
   transition: .5s;
-  margin-top: 60%;
+  margin-top: 40%;
 }
 
-.services2__card:hover {
+.gallery__card:hover::before {
+  top: -100%;
+}
+
+.gallery__card:hover {
   transform: scale(1.1);
   filter: drop-shadow(0px 0px 20px black);
   z-index: 2;
-}
-
-.services2__card:hover::before {
-  top: -100%;
 }

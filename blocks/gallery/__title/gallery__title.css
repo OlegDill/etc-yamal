@@ -1,0 +1,18 @@
+.gallery__title {
+  color: black;
+  font-family: 'Europeext Bold';
+  font-size: 3vw;
+  border-bottom: solid;
+  border-width: 0.25vw;
+  border-color: #940202;
+  max-width: max-content;
+  padding-right: 2%;
+  margin: 0 auto 3vw auto;
+  padding-left: 2%;
+}
+
+@media (max-width: 768px) {
+  .gallery__title {
+    font-size: 5vw;
+  }
+}

@@ -6,7 +6,6 @@
 }
 
 .services2__card:hover .services2__image {
-  /* filter: grayscale(100%) blur(3px); */
   filter: blur(3px);
 }
 
