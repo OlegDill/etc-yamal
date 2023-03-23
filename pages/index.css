@@ -1,6 +1,8 @@
 /* vendor */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/revealator-master/fm.revealator.jquery.css);
+@import url(../vendor/revealator-master/fm.revealator.jquery.min.css);
 /* owl */
 @import url(../blocks/owl/owl.carousel.min.css);
 @import url(../blocks/owl/owl.theme.default.min.css);
