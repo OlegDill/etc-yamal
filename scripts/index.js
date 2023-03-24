@@ -50,17 +50,17 @@ function open(evt) {
   } else {
     document.querySelector('.popup-more').classList.add('popup_opened');
     document.querySelector('.popup-more').addEventListener('click', handleEscOrOverlayClick);
-    if (evt.currentTarget.classList.value === 'services__card services__card_one') {
+    if (evt.currentTarget.classList.value === 'services__card services__card_one revealator-zoomin revealator-within') {
       document.querySelector('.popup-more__form').appendChild(templateMoreOne.content.cloneNode(true));
-    } else if (evt.currentTarget.classList.value === 'services__card services__card_two') {
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_two revealator-zoomin revealator-within') {
       document.querySelector('.popup-more__form').appendChild(templateMoreTwo.content.cloneNode(true));
-    } else if (evt.currentTarget.classList.value === 'services__card services__card_three') {
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_three revealator-zoomin revealator-within') {
       document.querySelector('.popup-more__form').appendChild(templateMoreThree.content.cloneNode(true));
-    } else if (evt.currentTarget.classList.value === 'services__card services__card_fourth') {
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_fourth revealator-zoomin revealator-within') {
       document.querySelector('.popup-more__form').appendChild(templateMoreFourth.content.cloneNode(true));
-    } else if (evt.currentTarget.classList.value === 'services__card services__card_fifth') {
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_fifth revealator-zoomin revealator-within') {
       document.querySelector('.popup-more__form').appendChild(templateMoreFifth.content.cloneNode(true));
-    } else if (evt.currentTarget.classList.value === 'services__card services__card_sixth') {
+    } else if (evt.currentTarget.classList.value === 'services__card services__card_sixth revealator-zoomin revealator-within') {
       document.querySelector('.popup-more__form').appendChild(templateMoreSixth.content.cloneNode(true));
     } else if (evt.currentTarget.classList.value === 'about__button' || 'about__caption-list') {
       document.querySelector('.popup-more__form').appendChild(templateAbout.content.cloneNode(true));
